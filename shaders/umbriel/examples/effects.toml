@@ -1,0 +1,199 @@
+[effects.flowering-vine.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 8
+passes = [{ shader = "shaders/rings/flowering-vine.glsl" }]
+
+[effects.flowering-vine.border.outer.light]
+enabled = true
+spread = 16
+intensity = 0.25
+threshold = 0.75
+
+[effects.flowering-vine.border.inner]
+passes = [{ shader = "shaders/window/flowering-vine-overlay.glsl" }]
+
+[effects.fuse.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 48
+passes = [{ shader = "shaders/rings/fuse.glsl" }]
+
+[effects.fuse.border.outer.light]
+enabled = true
+spread = 90
+intensity = 1.4
+threshold = 0.5
+
+[effects.fuse.border.inner]
+enabled = false
+
+[effects.lightning.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 24
+passes = [{ shader = "shaders/rings/lightning.glsl" }]
+
+[effects.lightning.border.outer.light]
+enabled = true
+spread = 80
+intensity = 1.0
+threshold = 0.5
+
+[effects.lightning.border.inner]
+enabled = false
+
+[effects.rainbow.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 14
+passes = [{ shader = "shaders/rings/rainbow-ripple.glsl" }]
+
+[effects.rainbow.border.outer.light]
+enabled = false
+
+[effects.rainbow.border.inner]
+passes = [{ shader = "shaders/window/rainbow-ripple-overlay.glsl" }]
+
+[effects.pulse.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 0
+passes = [{ shader = "shaders/rings/pulse.glsl" }]
+
+[effects.pulse.border.outer.light]
+enabled = false
+
+[effects.pulse.border.inner]
+enabled = false
+
+[effects.neon-bleed.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 14
+passes = [{ shader = "shaders/rings/neon-bleed.glsl" }]
+
+[effects.neon-bleed.border.inner]
+passes = [{ shader = "shaders/window/neon-bleed-overlay.glsl" }]
+
+[effects.portal-lava.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 14
+passes = [{ shader = "shaders/rings/portal-lava.glsl" }]
+
+[effects.portal-lava.border.inner]
+passes = [{ shader = "shaders/window/portal-lava-overlay.glsl" }]
+
+[effects.sentient-runner.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 14
+passes = [{ shader = "shaders/rings/sentient-runner.glsl" }]
+
+[effects.sentient-runner.border.inner]
+enabled = false
+
+[effects.sentient-spark.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 14
+passes = [{ shader = "shaders/rings/sentient-spark.glsl" }]
+
+[effects.sentient-spark.border.inner]
+enabled = false
+
+[effects.flowing-water.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 30
+passes = [{ shader = "shaders/rings/flowing-water.glsl" }]
+
+[effects.flowing-water.border.inner]
+enabled = false
+
+[effects.faerie-magic.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 8
+passes = [{ shader = "shaders/rings/faerie-magic.glsl" }]
+
+[effects.faerie-magic.border.inner]
+passes = [{ shader = "shaders/window/faerie-magic-overlay.glsl" }]
+
+[effects."window.liquid-glass".content]
+passes = [{ shader = "shaders/window/liquid-glass.glsl" }]
+
+[effects."window.flap-board".content]
+passes = [{ shader = "shaders/window/flap-board.glsl" }]
+
+[effects."window.autumn-leaves".content]
+passes = [{ shader = "shaders/window/autumn-leaves.glsl" }]
+
+[effects."window.crt".content]
+passes = [{ shader = "shaders/window/crt.glsl" }]
+
+[effects."window.fire-tendrils".content]
+passes = [{ shader = "shaders/window/fire-tendrils.glsl" }]
+
+[effects."window.mercury-sheen".content]
+passes = [{ shader = "shaders/window/mercury-sheen.glsl" }]
+
+[effects."window.parchment-dark".content]
+passes = [{ shader = "shaders/window/parchment-dark.glsl" }]
+
+[effects."window.parchment".content]
+passes = [{ shader = "shaders/window/parchment.glsl" }]
+
+[effects."window.prairie-wind".content]
+passes = [{ shader = "shaders/window/prairie-wind.glsl" }]
+
+[effects."window.rainbow-radial".content]
+passes = [{ shader = "shaders/window/rainbow-radial.glsl" }]
+
+[effects."window.rainbow-smoke".content]
+passes = [{ shader = "shaders/window/rainbow-smoke.glsl" }]
+
+[effects."window.rainbow-waves".content]
+passes = [{ shader = "shaders/window/rainbow-waves.glsl" }]
+
+[effects."window.rainfall".content]
+passes = [{ shader = "shaders/window/rainfall.glsl" }]
+
+[effects."window.rgb-border".content]
+passes = [{ shader = "shaders/window/rgb-border.glsl" }]
+
+[effects."window.rgb-shimmer".content]
+passes = [{ shader = "shaders/window/rgb-shimmer.glsl" }]
+
+[effects."window.ripple-drops".content]
+passes = [{ shader = "shaders/window/ripple-drops.glsl" }]
+
+[effects."window.rolling-clouds".content]
+passes = [{ shader = "shaders/window/rolling-clouds.glsl" }]
+
+[effects."window.rorschach2".content]
+passes = [{ shader = "shaders/window/rorschach2.glsl" }]
+
+[effects."window.sentient-circuit".content]
+passes = [{ shader = "shaders/window/sentient-circuit.glsl" }]
+
+[effects."window.sentient-circuit-v2".content]
+passes = [{ shader = "shaders/window/sentient-circuit-v2.glsl" }]
+
+[effects."window.snowfall".content]
+passes = [{ shader = "shaders/window/snowfall.glsl" }]
+
+[effects."window.adaptive-text-v4".content]
+passes = [{ shader = "shaders/window/adaptive-text-v4.glsl" }]

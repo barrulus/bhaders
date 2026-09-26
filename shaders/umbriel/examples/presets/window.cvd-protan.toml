@@ -1,0 +1,2 @@
+[effects."window.cvd-protan".content]
+passes = [{ shader = "../shaders/window/cvd-protan.glsl" }]

@@ -1,0 +1,6 @@
+[effects.neon-bleed.border.outer]
+padding = 14
+passes = [{ shader = "neon-bleed.glsl" }]
+
+[effects.neon-bleed.border.inner]
+passes = [{ shader = "../window/neon-bleed-overlay.glsl" }]

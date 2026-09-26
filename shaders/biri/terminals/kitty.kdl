@@ -1,0 +1,18 @@
+// Personal preset: content shaders are installed under ~/.config/bhaders/biri.
+window-rule {
+    match app-id=r#"^(kitty|net\.kovidgoyal\.kitty)$"#
+
+    shader {
+        path "~/.config/bhaders/biri/window/rainbow-smoke.frag"
+    }
+    border { off; }
+    focus-ring {
+        on
+        width 6
+        shader {
+            path "../focus-ring/portal-lava.frag"
+            padding 14
+            draw-inside true
+        }
+    }
+}

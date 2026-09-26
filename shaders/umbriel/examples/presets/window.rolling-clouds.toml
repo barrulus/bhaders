@@ -1,0 +1,2 @@
+["effects"."window.rolling-clouds"."content"]
+passes = [{ shader = "../shaders/window/rolling-clouds.glsl" }]

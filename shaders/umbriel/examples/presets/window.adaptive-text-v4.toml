@@ -1,0 +1,2 @@
+["effects"."window.adaptive-text-v4"."content"]
+passes = [{ shader = "../shaders/window/adaptive-text-v4.glsl" }]

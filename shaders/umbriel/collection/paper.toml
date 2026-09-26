@@ -1,0 +1,23 @@
+# A complete paper set. Select with appearance.effects = ["paper"].
+[effects.paper.content]
+animated = false
+passes = [{shader = "window/crumpled-paper.glsl"}]
+
+[effects.paper.border.outer]
+padding = 28
+focused_only = false
+passes = [{shader = "rings/scribbling-pencils.glsl"}]
+
+[effects.paper.border.inner]
+focused_only = false
+passes = [{shader = "window/scribbling-pencils-overlay.glsl"}]
+
+[effects.paper.open]
+duration_ms = 1350
+curve = "linear"
+passes = [{shader = "animations/paper.glsl"}]
+
+[effects.paper.close]
+duration_ms = 1150
+curve = "linear"
+passes = [{shader = "animations/paper.glsl"}]

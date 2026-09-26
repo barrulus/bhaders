@@ -1,0 +1,9 @@
+[effects.pulse.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 0
+passes = [{ shader = "pulse.glsl" }]
+
+[effects.pulse.border.inner]
+enabled = false

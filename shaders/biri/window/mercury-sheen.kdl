@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "mercury-sheen" { path "~/.config/bhaders/biri/window/mercury-sheen.frag"; }
+}

@@ -1,0 +1,2 @@
+[effects."window.rgb-border".content]
+passes = [{ shader = "rgb-border.glsl" }]

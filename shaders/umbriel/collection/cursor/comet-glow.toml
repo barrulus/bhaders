@@ -1,0 +1,2 @@
+[effects."cursor.comet-glow".overlay]
+passes = [{ shader = "comet-glow-0.glsl" }, { shader = "comet-glow-1.glsl" }]

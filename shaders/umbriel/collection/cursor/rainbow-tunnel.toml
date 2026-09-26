@@ -1,0 +1,2 @@
+[effects."cursor.rainbow-tunnel".overlay]
+passes = [{ shader = "rainbow-tunnel.glsl" }]

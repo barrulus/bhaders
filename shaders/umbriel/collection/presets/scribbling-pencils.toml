@@ -1,0 +1,6 @@
+[effects."scribbling-pencils".border.outer]
+padding = 28
+passes = [{ shader = "../rings/scribbling-pencils.glsl" }]
+
+[effects."scribbling-pencils".border.inner]
+passes = [{ shader = "../window/scribbling-pencils-overlay.glsl" }]

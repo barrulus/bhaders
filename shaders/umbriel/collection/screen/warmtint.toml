@@ -1,0 +1,2 @@
+[effects."screen.warmtint".screen]
+passes = [{ shader = "warmtint.glsl" }]

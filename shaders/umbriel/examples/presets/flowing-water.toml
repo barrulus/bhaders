@@ -1,0 +1,9 @@
+["effects"."flowing-water"."border"."outer"]
+enabled = true
+animated = true
+speed = 1
+padding = 30
+passes = [{ shader = "../shaders/rings/flowing-water.glsl" }]
+
+["effects"."flowing-water"."border"."inner"]
+enabled = false

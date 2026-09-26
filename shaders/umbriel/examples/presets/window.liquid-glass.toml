@@ -1,0 +1,2 @@
+["effects"."window.liquid-glass"."content"]
+passes = [{ shader = "../shaders/window/liquid-glass.glsl" }]

@@ -1,0 +1,2610 @@
+{
+  "sources": [
+    {
+      "file": "shaders/biri/close/close-lightning.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/close/close-lightning.kdl",
+      "source_sha256": "fa329daf7b71823012d29cad94a82ecf959a6af95db610e0d683200bbafac044",
+      "import_sha256": "fa329daf7b71823012d29cad94a82ecf959a6af95db610e0d683200bbafac044",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/close/close-melt.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/close/close-melt.kdl",
+      "source_sha256": "ec8c62aa4025dd9feb6cb3583018065e7729e4221597ce5a703cece853224c46",
+      "import_sha256": "ec8c62aa4025dd9feb6cb3583018065e7729e4221597ce5a703cece853224c46",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/close/close-paper.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/close/close-paper.kdl",
+      "source_sha256": "0e155da69612ae46544831d91469e1debdaeebff867d522598d0af6c08c451f5",
+      "import_sha256": "0e155da69612ae46544831d91469e1debdaeebff867d522598d0af6c08c451f5",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/close/close-ripple.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/close/close-ripple.kdl",
+      "source_sha256": "a765ee1ad3f4692980d64c2f80f5b1583a6368929bf09dc5653753e1f11732eb",
+      "import_sha256": "a765ee1ad3f4692980d64c2f80f5b1583a6368929bf09dc5653753e1f11732eb",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/close/close-whirlpool.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/close/close-whirlpool.kdl",
+      "source_sha256": "f36faf2ab52048bb732f2b962e433e04549772c2b5d2b88a0d2917b25cad90d9",
+      "import_sha256": "f36faf2ab52048bb732f2b962e433e04549772c2b5d2b88a0d2917b25cad90d9",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/cursor/adaptive.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/cursor/adaptive.kdl",
+      "source_sha256": "bf5f65cfe2584cfbd59d408ff545d39cdf56c4aae6a506c468d99d82c82acbd5",
+      "import_sha256": "bf5f65cfe2584cfbd59d408ff545d39cdf56c4aae6a506c468d99d82c82acbd5",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/cursor/blueglow.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/cursor/blueglow.kdl",
+      "source_sha256": "013e51338356623a58a1d4c9ac5fa3411aaca1af4cc4477efe846382590785ba",
+      "import_sha256": "013e51338356623a58a1d4c9ac5fa3411aaca1af4cc4477efe846382590785ba",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/cursor/comet-glow.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/cursor/comet-glow.kdl",
+      "source_sha256": "2ddafa895290fd3852270800a0616c1a708919d1621370e5d0bba2e1e1596607",
+      "import_sha256": "2ddafa895290fd3852270800a0616c1a708919d1621370e5d0bba2e1e1596607",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/cursor/comet.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/cursor/comet.kdl",
+      "source_sha256": "cc0a3f0dfbfa5013e4955602cb60a9e5dafc49ef9a2387cd44b331aa73c2fca3",
+      "import_sha256": "cc0a3f0dfbfa5013e4955602cb60a9e5dafc49ef9a2387cd44b331aa73c2fca3",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/cursor/rainbow-tunnel-bare.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/cursor/rainbow-tunnel-bare.kdl",
+      "source_sha256": "6217bfdcbdc84759f76ef36117ae3889fe2663bb3aada15d4ad1cc6e2cf960ba",
+      "import_sha256": "6217bfdcbdc84759f76ef36117ae3889fe2663bb3aada15d4ad1cc6e2cf960ba",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/cursor/rainbow-tunnel.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/cursor/rainbow-tunnel.kdl",
+      "source_sha256": "d42eaa154e9a11878194a24f457f0bc57ed64742358b9a3f2360225e9628de9a",
+      "import_sha256": "d42eaa154e9a11878194a24f457f0bc57ed64742358b9a3f2360225e9628de9a",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/cursor/ripple.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/cursor/ripple.kdl",
+      "source_sha256": "cbd8eed592985d7c245f9282a0086bc242e673188e83451dabdd310f4f920b73",
+      "import_sha256": "cbd8eed592985d7c245f9282a0086bc242e673188e83451dabdd310f4f920b73",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/cursor/shockwave.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/cursor/shockwave.kdl",
+      "source_sha256": "6ff84fbcc95048640316f8c566928e7d27484a5db547e448819791671dcaff5b",
+      "import_sha256": "6ff84fbcc95048640316f8c566928e7d27484a5db547e448819791671dcaff5b",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/cursor/spotlight.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/cursor/spotlight.kdl",
+      "source_sha256": "54dab879980be68373fe7a0a2a12e020b0832dd3e4fb7be6707c45603373cfe1",
+      "import_sha256": "54dab879980be68373fe7a0a2a12e020b0832dd3e4fb7be6707c45603373cfe1",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/cursor/trail.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/cursor/trail.kdl",
+      "source_sha256": "cead11fe46498e27aa96b71eb9bbed058bc3f0b52cdf08e03fb6f926b26c3fe8",
+      "import_sha256": "cead11fe46498e27aa96b71eb9bbed058bc3f0b52cdf08e03fb6f926b26c3fe8",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/drag/jelly.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/drag/jelly.kdl",
+      "source_sha256": "61e8aae8cbb01ca0755f5484bc9c01b41c9a750ed01247b20522e4acd1400967",
+      "import_sha256": "61e8aae8cbb01ca0755f5484bc9c01b41c9a750ed01247b20522e4acd1400967",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/drag/lateral-wobble.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/drag/lateral-wobble.kdl",
+      "source_sha256": "8ba330a831627f7873267cbe1a8d54204a9d697f25b3c966c497cd28b38a37df",
+      "import_sha256": "8ba330a831627f7873267cbe1a8d54204a9d697f25b3c966c497cd28b38a37df",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/drag/taffy.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/drag/taffy.kdl",
+      "source_sha256": "86850566d8b862a7583ab01367cc6bf35901b15a378961631bdad9b571f8be4a",
+      "import_sha256": "86850566d8b862a7583ab01367cc6bf35901b15a378961631bdad9b571f8be4a",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/faerie-magic.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/faerie-magic.frag",
+      "source_sha256": "18059ae21cdc60b75cfd6fb6353a7ef4c9a0d6ff567a5cc12819a9faeb0b5954",
+      "import_sha256": "18059ae21cdc60b75cfd6fb6353a7ef4c9a0d6ff567a5cc12819a9faeb0b5954",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/faerie-magic.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/faerie-magic.kdl",
+      "source_sha256": "06e598fcc81fbef63d4f275bfafb42934de6aabf44f7c7c3884dd8e7627aad4c",
+      "import_sha256": "06e598fcc81fbef63d4f275bfafb42934de6aabf44f7c7c3884dd8e7627aad4c",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/flowering-vine.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/flowering-vine.frag",
+      "source_sha256": "937deff902fe2f1912259df328b017fc435518a2395f50e5c9f27167e1728620",
+      "import_sha256": "937deff902fe2f1912259df328b017fc435518a2395f50e5c9f27167e1728620",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/flowering-vine.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/flowering-vine.kdl",
+      "source_sha256": "3319b82d7b37b093f601cb053d3bbb5a1d75180135b669f3f91812fe8261cf8d",
+      "import_sha256": "3319b82d7b37b093f601cb053d3bbb5a1d75180135b669f3f91812fe8261cf8d",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/flowing-water.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/flowing-water.frag",
+      "source_sha256": "a6b2a7930f27bddf762274618d3385a9ffd4fe3e2ad2f7364e83992b81947d19",
+      "import_sha256": "a6b2a7930f27bddf762274618d3385a9ffd4fe3e2ad2f7364e83992b81947d19",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/flowing-water.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/flowing-water.kdl",
+      "source_sha256": "c24fdd607f58a3afdfdfd725f89cbf85a2a94cb93f05b7c7eabe9ff8dd32946a",
+      "import_sha256": "c24fdd607f58a3afdfdfd725f89cbf85a2a94cb93f05b7c7eabe9ff8dd32946a",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/fuse.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/fuse.frag",
+      "source_sha256": "b6c823da027ee65f6872db5cf84d5e13f88201f7acb1a5d8237e3149c94b3495",
+      "import_sha256": "b6c823da027ee65f6872db5cf84d5e13f88201f7acb1a5d8237e3149c94b3495",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/fuse.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/fuse.kdl",
+      "source_sha256": "7620299382d6c554d5d484ba7affdb56a2fb4fa5884b1d2e7d8263b261b50b0b",
+      "import_sha256": "7620299382d6c554d5d484ba7affdb56a2fb4fa5884b1d2e7d8263b261b50b0b",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/lightning.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/lightning.frag",
+      "source_sha256": "344bfd4adae4df874cd7e9883e2ad91e9861f5ff692ebd49f7f355f00bfee5e0",
+      "import_sha256": "344bfd4adae4df874cd7e9883e2ad91e9861f5ff692ebd49f7f355f00bfee5e0",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/neon-bleed.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/neon-bleed.frag",
+      "source_sha256": "476f8af01e5b634b095bf3a03284b6888b5627aa02e4c4a6fccd71b350ab3e84",
+      "import_sha256": "476f8af01e5b634b095bf3a03284b6888b5627aa02e4c4a6fccd71b350ab3e84",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/neon-bleed.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/neon-bleed.kdl",
+      "source_sha256": "18d94631a0d3755809f97579a7b1ddf3924bbca91b719c7524124c5c7f7031d1",
+      "import_sha256": "18d94631a0d3755809f97579a7b1ddf3924bbca91b719c7524124c5c7f7031d1",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/portal-lava.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/portal-lava.frag",
+      "source_sha256": "ffdb11ab896ccd3a775e00033b1846977d7173a67f474df5919297fbca89575f",
+      "import_sha256": "ffdb11ab896ccd3a775e00033b1846977d7173a67f474df5919297fbca89575f",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/portal-lava.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/portal-lava.kdl",
+      "source_sha256": "9b7510ee074f643bc13f0ddcdfc093ec004014c4ede5a1dca15339acf3f41ec6",
+      "import_sha256": "9b7510ee074f643bc13f0ddcdfc093ec004014c4ede5a1dca15339acf3f41ec6",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/portal.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/portal.frag",
+      "source_sha256": "4b44ca8d30fb8bc49b1d11eabac8e59c8badc2d14e478477682e2d38c730a5bf",
+      "import_sha256": "4b44ca8d30fb8bc49b1d11eabac8e59c8badc2d14e478477682e2d38c730a5bf",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/portal.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/portal.kdl",
+      "source_sha256": "8b7f6ea120542510e1fab4a4ef7a221be0ba64e4b6451358188dd03c4b3084b7",
+      "import_sha256": "8b7f6ea120542510e1fab4a4ef7a221be0ba64e4b6451358188dd03c4b3084b7",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/pulse.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/pulse.frag",
+      "source_sha256": "a4fc089e39c05c685a55950b4960f4aff5fd8c309c4cb5ffbe0905fa62163cc6",
+      "import_sha256": "a4fc089e39c05c685a55950b4960f4aff5fd8c309c4cb5ffbe0905fa62163cc6",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/rainbow-bleed.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/rainbow-bleed.frag",
+      "source_sha256": "9e5a09c7de53ba571b609ebfc50b9649f96bd7c13aca76df28562d03caed72f6",
+      "import_sha256": "9e5a09c7de53ba571b609ebfc50b9649f96bd7c13aca76df28562d03caed72f6",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/rainbow-bleed.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/rainbow-bleed.kdl",
+      "source_sha256": "a7cc2fe330016ed6abfaaf38e043e34f593bd587e9da702597281d82bceefeb7",
+      "import_sha256": "a7cc2fe330016ed6abfaaf38e043e34f593bd587e9da702597281d82bceefeb7",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/rainbow-ripple.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/rainbow-ripple.frag",
+      "source_sha256": "1ce2e90867a4a299d91543f55a4184f0871f5336a372da47d8ea96fa3655a8f1",
+      "import_sha256": "1ce2e90867a4a299d91543f55a4184f0871f5336a372da47d8ea96fa3655a8f1",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/rainbow-ripple.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/rainbow-ripple.kdl",
+      "source_sha256": "f5a0bfaba40f006e331e5b53807ed7d8999c4e706348611a077a9ecde4ec425b",
+      "import_sha256": "f5a0bfaba40f006e331e5b53807ed7d8999c4e706348611a077a9ecde4ec425b",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/scribbling-pencils.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/scribbling-pencils.frag",
+      "source_sha256": "54e653bef91e51edb6503c4b692928951d6cb2df25a15fc79c4ce8467918e793",
+      "import_sha256": "54e653bef91e51edb6503c4b692928951d6cb2df25a15fc79c4ce8467918e793",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/scribbling-pencils.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/scribbling-pencils.kdl",
+      "source_sha256": "c5741ec858b1d8ec71a833b3187f4f3cf065917087293fda10f772ce5afd999f",
+      "import_sha256": "c5741ec858b1d8ec71a833b3187f4f3cf065917087293fda10f772ce5afd999f",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/sentient-runner.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/sentient-runner.frag",
+      "source_sha256": "6d5d77e79c0adf2623e5bb625556069693ee9f501bad0b1d4d4f0553191d1b00",
+      "import_sha256": "6d5d77e79c0adf2623e5bb625556069693ee9f501bad0b1d4d4f0553191d1b00",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/sentient-runner.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/sentient-runner.kdl",
+      "source_sha256": "7d490f65a5f823c46165f699cc6a9a959c8ecf840d870be355d9b554b5506939",
+      "import_sha256": "7d490f65a5f823c46165f699cc6a9a959c8ecf840d870be355d9b554b5506939",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/sentient-spark.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/sentient-spark.frag",
+      "source_sha256": "bd7228379946526029d85860056fbf0a740010d477a285d133291eb09b8a44c4",
+      "import_sha256": "bd7228379946526029d85860056fbf0a740010d477a285d133291eb09b8a44c4",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/focus-ring/sentient-spark.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/focus-ring/sentient-spark.kdl",
+      "source_sha256": "18f503978a4031f545ac82581244c4350ef7c8c723b495f834c0863a1b3833dd",
+      "import_sha256": "18f503978a4031f545ac82581244c4350ef7c8c723b495f834c0863a1b3833dd",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/off.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/off.kdl",
+      "source_sha256": "3215585cc92db2bcd7d97e063c3553e5ac30071d917ba3702c20bd351a91ab10",
+      "import_sha256": "3215585cc92db2bcd7d97e063c3553e5ac30071d917ba3702c20bd351a91ab10",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/screen/crt.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/screen/crt.kdl",
+      "source_sha256": "2d2d819c886ddc69f79aee00730170327f7ff10fd582a838bcb67a42febfd2b9",
+      "import_sha256": "2d2d819c886ddc69f79aee00730170327f7ff10fd582a838bcb67a42febfd2b9",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/screen/grayscale.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/screen/grayscale.kdl",
+      "source_sha256": "029c3550f8371d9e4d482aa418c549fb6c8e2c4e714453baa83e47639b33df20",
+      "import_sha256": "029c3550f8371d9e4d482aa418c549fb6c8e2c4e714453baa83e47639b33df20",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/screen/vignette.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/screen/vignette.kdl",
+      "source_sha256": "69538cb2020ac7dc2d7e2077c03f6f249820484d91f622f231377dc062c63351",
+      "import_sha256": "69538cb2020ac7dc2d7e2077c03f6f249820484d91f622f231377dc062c63351",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/screen/warmtint.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/screen/warmtint.kdl",
+      "source_sha256": "718da833a3e9ffd3beb49d86be07a035878e071dc2273558a285f474ff801a44",
+      "import_sha256": "718da833a3e9ffd3beb49d86be07a035878e071dc2273558a285f474ff801a44",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/scripts/global-shader-cycle",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/scripts/global-shader-cycle",
+      "source_sha256": "39a80d1b6768c135c58806e9ea7ba5f9febe0268b285df56b5c4a8508c3904ba",
+      "import_sha256": "39a80d1b6768c135c58806e9ea7ba5f9febe0268b285df56b5c4a8508c3904ba",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/scripts/shader-cycle",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/scripts/shader-cycle",
+      "source_sha256": "62e57257c426c7a0eaa3954c667938276bd3d8c351272965007b7209a6fafcac",
+      "import_sha256": "62e57257c426c7a0eaa3954c667938276bd3d8c351272965007b7209a6fafcac",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/terminals/all.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/terminals/all.kdl",
+      "source_sha256": "3d35550fea5bd561f8d27262bf9441b0bb72675ffc76a99afddf5d6f3707e3fa",
+      "import_sha256": "3d35550fea5bd561f8d27262bf9441b0bb72675ffc76a99afddf5d6f3707e3fa",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/terminals/foot.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/terminals/foot.kdl",
+      "source_sha256": "b706bff13bbd6b428824d90da25f5277e801461dcdd6ca2295dbb95f293f75e9",
+      "import_sha256": "621ae5c897d315b32ae3cf43d06465c0c79cfc7f2c88fe83477d1574ef47cefa",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/terminals/ghostty.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/terminals/ghostty.kdl",
+      "source_sha256": "c77d9d2bba0a738aa1ef4a4c47c252e0807b1af3b80decdea55488b1a218ec89",
+      "import_sha256": "ef036685aa5b38dec940cbf95cad182d15b1823f31d530853eed361f8e794480",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/terminals/kitty.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/terminals/kitty.kdl",
+      "source_sha256": "21a6657f8d4fade823fcba15f6b228d132762c991466bf034dbb4c0d07b58fcb",
+      "import_sha256": "2c7c65c5751784f544aed36abb7e8c47bb1608582726900bcf406fe32b70f327",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/adaptive-text-v3.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/adaptive-text-v3.frag",
+      "source_sha256": "507d8bc6d50fe59cabdd4f4e051b7b2caae22921045cfe74ec20bc2d22c9aa71",
+      "import_sha256": "507d8bc6d50fe59cabdd4f4e051b7b2caae22921045cfe74ec20bc2d22c9aa71",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/adaptive-text-v4.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/adaptive-text-v4.frag",
+      "source_sha256": "865112a4d32775b6f29176d3c958e912c2a94d5343886e66e1f24f414697b156",
+      "import_sha256": "865112a4d32775b6f29176d3c958e912c2a94d5343886e66e1f24f414697b156",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/autumn-leaves.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/autumn-leaves.frag",
+      "source_sha256": "d9d5d216a4e7458ed705dc8ccec7d8b6e5b5825f89e0f8b7e78e628747d191b2",
+      "import_sha256": "d9d5d216a4e7458ed705dc8ccec7d8b6e5b5825f89e0f8b7e78e628747d191b2",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/crt.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/crt.frag",
+      "source_sha256": "e43b45450cb7d924065264658cac59b3c0ead18d7717d43085911ba7bf11044d",
+      "import_sha256": "e43b45450cb7d924065264658cac59b3c0ead18d7717d43085911ba7bf11044d",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/crumpled-paper.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/crumpled-paper.frag",
+      "source_sha256": "88f39ac41a4b0482b06a185cee8e4311c158821b0faae89482505b1571e4710c",
+      "import_sha256": "88f39ac41a4b0482b06a185cee8e4311c158821b0faae89482505b1571e4710c",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/cvd-deutan-alphabet.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/cvd-deutan-alphabet.frag",
+      "source_sha256": "1000ed44718654c215ff487a20a6ea1d79bfaea76ec0332a7f6b9bed7eb0a158",
+      "import_sha256": "1000ed44718654c215ff487a20a6ea1d79bfaea76ec0332a7f6b9bed7eb0a158",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/cvd-deutan-combo.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/cvd-deutan-combo.frag",
+      "source_sha256": "8f8502c27b410918956959531ea2aca7ebeccb34f7e80e428745549e53705a02",
+      "import_sha256": "8f8502c27b410918956959531ea2aca7ebeccb34f7e80e428745549e53705a02",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/cvd-deutan-drift.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/cvd-deutan-drift.frag",
+      "source_sha256": "20d7aa309751b9c9b5ef854638b789b355b6a03a87708ea66cab33bf5742c9fe",
+      "import_sha256": "20d7aa309751b9c9b5ef854638b789b355b6a03a87708ea66cab33bf5742c9fe",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/cvd-deutan-oriented.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/cvd-deutan-oriented.frag",
+      "source_sha256": "17225530b2afd16deb8453aa415783bb7270d55764aace203a80b096f053d687",
+      "import_sha256": "17225530b2afd16deb8453aa415783bb7270d55764aace203a80b096f053d687",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/cvd-deutan.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/cvd-deutan.frag",
+      "source_sha256": "fb638901c5758be1c48285a32de1f8a5032f10d4132c5039708dfad47f765b18",
+      "import_sha256": "fb638901c5758be1c48285a32de1f8a5032f10d4132c5039708dfad47f765b18",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/cvd-protan.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/cvd-protan.frag",
+      "source_sha256": "4e7eba45567bdd06407cf4b7a003666914a569227c94a77314d2015503e87eef",
+      "import_sha256": "4e7eba45567bdd06407cf4b7a003666914a569227c94a77314d2015503e87eef",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/cvd-tritan.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/cvd-tritan.frag",
+      "source_sha256": "b6445f91cd3442d98a0eea558164d7dd470ddcef70517d034a125af3192d2388",
+      "import_sha256": "b6445f91cd3442d98a0eea558164d7dd470ddcef70517d034a125af3192d2388",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/film-grain.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/film-grain.frag",
+      "source_sha256": "9804efbeae9c76816c7c15f84113a3feef4927ed3709299b33d1a1c8ca368fee",
+      "import_sha256": "9804efbeae9c76816c7c15f84113a3feef4927ed3709299b33d1a1c8ca368fee",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/fire-tendrils.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/fire-tendrils.frag",
+      "source_sha256": "e66d1541f5e814ba56b0806b637c7734dbc502ef4ab14d1643de7151a79a3e29",
+      "import_sha256": "e66d1541f5e814ba56b0806b637c7734dbc502ef4ab14d1643de7151a79a3e29",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/fire.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/fire.frag",
+      "source_sha256": "14dbb14d4966d11cd72e24318a16f7f98286092af045e3f4350eabd960b8e6f4",
+      "import_sha256": "14dbb14d4966d11cd72e24318a16f7f98286092af045e3f4350eabd960b8e6f4",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/fisheye-rgb.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/fisheye-rgb.frag",
+      "source_sha256": "0ad4712f85e480904a214164bdc9e68f4d546873af92fd2b7c8da8ed24e4d3ed",
+      "import_sha256": "0ad4712f85e480904a214164bdc9e68f4d546873af92fd2b7c8da8ed24e4d3ed",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/flap-board.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/flap-board.frag",
+      "source_sha256": "84877b208b5b67ede766d60be422eb181ba64524c3ad016a7baee5587aa4aa8b",
+      "import_sha256": "84877b208b5b67ede766d60be422eb181ba64524c3ad016a7baee5587aa4aa8b",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/liquid-glass.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/liquid-glass.frag",
+      "source_sha256": "f196ebbe2b3b6dc303aefaf6b6b74201cbd6b2120f2b24a8e5d68381d3706373",
+      "import_sha256": "f196ebbe2b3b6dc303aefaf6b6b74201cbd6b2120f2b24a8e5d68381d3706373",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/mercury-sheen.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/mercury-sheen.frag",
+      "source_sha256": "3015b4f7bcf1a047cc221ec3468d2a61bd4a87d00dbadd4f9e4c1323c888d86d",
+      "import_sha256": "3015b4f7bcf1a047cc221ec3468d2a61bd4a87d00dbadd4f9e4c1323c888d86d",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/parchment-dark.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/parchment-dark.frag",
+      "source_sha256": "08d75d83c4d03ff3f8b5d4708836e561157988f4e77cc6c7fc2dc739f940ab00",
+      "import_sha256": "08d75d83c4d03ff3f8b5d4708836e561157988f4e77cc6c7fc2dc739f940ab00",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/parchment.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/parchment.frag",
+      "source_sha256": "7a6859d6c1a658d4e5ef85a73776535e692f60cdfe3f344484925667fb33e0f4",
+      "import_sha256": "7a6859d6c1a658d4e5ef85a73776535e692f60cdfe3f344484925667fb33e0f4",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/pixel-mosaic.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/pixel-mosaic.frag",
+      "source_sha256": "5223aa5d775ac30edddae8ffecbb7be3159cee748d17a497d6722e16277c63df",
+      "import_sha256": "5223aa5d775ac30edddae8ffecbb7be3159cee748d17a497d6722e16277c63df",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/prairie-wind.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/prairie-wind.frag",
+      "source_sha256": "28a42e79ba87314183139eff33ab3cca360642d13952460c1d898dcf6ec956cc",
+      "import_sha256": "28a42e79ba87314183139eff33ab3cca360642d13952460c1d898dcf6ec956cc",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/presets.kdl",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/presets.kdl",
+      "source_sha256": "b0fcd507fd4ad641ef247c8465364cb41ab94272fc8b924d55a534ee4a82b2c0",
+      "import_sha256": "1d464a99b911f0b929345e8f8f9e002bda15a44563171ce3cec712279450823e",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/rainbow-radial.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/rainbow-radial.frag",
+      "source_sha256": "2bba3f5b181340664427e34a6904f4c9560e0b332d2d42117e2e9fb8ff021a72",
+      "import_sha256": "2bba3f5b181340664427e34a6904f4c9560e0b332d2d42117e2e9fb8ff021a72",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/rainbow-smoke.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/rainbow-smoke.frag",
+      "source_sha256": "5542af5bbbc4810d5f785715e8b832756db5fcb8deb510dcae3ec84ddea5aae7",
+      "import_sha256": "5542af5bbbc4810d5f785715e8b832756db5fcb8deb510dcae3ec84ddea5aae7",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/rainbow-waves.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/rainbow-waves.frag",
+      "source_sha256": "6277403d363bea109428a4a9b1a1f20aea35e705d17e8f3e8ee6ba88e33b90ee",
+      "import_sha256": "6277403d363bea109428a4a9b1a1f20aea35e705d17e8f3e8ee6ba88e33b90ee",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/rainfall.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/rainfall.frag",
+      "source_sha256": "f62befbef5907ffeaa40305b752d24ff0a8a96e56a19dd515062af9a3315ec34",
+      "import_sha256": "f62befbef5907ffeaa40305b752d24ff0a8a96e56a19dd515062af9a3315ec34",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/rgb-border.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/rgb-border.frag",
+      "source_sha256": "6229c8b2f96f93091b8b4c46ac65e212623cf760dfbb3a644ce8d0459c1b4787",
+      "import_sha256": "6229c8b2f96f93091b8b4c46ac65e212623cf760dfbb3a644ce8d0459c1b4787",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/rgb-shimmer.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/rgb-shimmer.frag",
+      "source_sha256": "1766b69ec1b64d2575b2f0fcd48af84b712cf8494164e9ea5e2012c16f5f4390",
+      "import_sha256": "1766b69ec1b64d2575b2f0fcd48af84b712cf8494164e9ea5e2012c16f5f4390",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/ripple-drops.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/ripple-drops.frag",
+      "source_sha256": "6e09d4b33fb405402339b2cc774d9094cfaa2b30e4da9bd1d886803b99ccb82e",
+      "import_sha256": "6e09d4b33fb405402339b2cc774d9094cfaa2b30e4da9bd1d886803b99ccb82e",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/rolling-clouds.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/rolling-clouds.frag",
+      "source_sha256": "1d3b2d6d7a73c5f8d6901a3a85766e09e5adcad394c371aa57802f264d560054",
+      "import_sha256": "1d3b2d6d7a73c5f8d6901a3a85766e09e5adcad394c371aa57802f264d560054",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/rorschach.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/rorschach.frag",
+      "source_sha256": "d4d1eed203f1375eec9d15bfa13d1bf90e21104e75dd5155196f02ab43925ed7",
+      "import_sha256": "d4d1eed203f1375eec9d15bfa13d1bf90e21104e75dd5155196f02ab43925ed7",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/rorschach2.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/rorschach2.frag",
+      "source_sha256": "2b27b62b33af4ff784c87fe8eee4c2994d001395388221767aa049c786521173",
+      "import_sha256": "2b27b62b33af4ff784c87fe8eee4c2994d001395388221767aa049c786521173",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/sentient-circuit-v2.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/sentient-circuit-v2.frag",
+      "source_sha256": "6131d5582887308cecaf6bc75f91bd7c39276d67ff3dc1a320e40b49e0c6eabd",
+      "import_sha256": "6131d5582887308cecaf6bc75f91bd7c39276d67ff3dc1a320e40b49e0c6eabd",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/sentient-circuit.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/sentient-circuit.frag",
+      "source_sha256": "a689da503de51dc99ff1503c24586d8b71f29f85866dcef7795a83e3a41b74ab",
+      "import_sha256": "a689da503de51dc99ff1503c24586d8b71f29f85866dcef7795a83e3a41b74ab",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/biri/window/snowfall.frag",
+      "repository": "barrulus/biri",
+      "revision": "d0e0693c6479932a879c53bfe04e247b263f4172",
+      "source": "resources/shaders/window/snowfall.frag",
+      "source_sha256": "077109a01f8be046646583b01d7c2d641a82628ab09c2e73bf605f880fde4123",
+      "import_sha256": "077109a01f8be046646583b01d7c2d641a82628ab09c2e73bf605f880fde4123",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/lightning-close.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/lightning-close.glsl",
+      "source_sha256": "b764ef0d597e1e3e7a3cad68317497e107e283eb75cf4fa73469385f00b6ec0a",
+      "import_sha256": "b764ef0d597e1e3e7a3cad68317497e107e283eb75cf4fa73469385f00b6ec0a",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/lightning-open.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/lightning-open.glsl",
+      "source_sha256": "2cf6b1bb40fb212707f3ba0e9ff88b1b02f92e0e2804e240c664affae29aa86a",
+      "import_sha256": "2cf6b1bb40fb212707f3ba0e9ff88b1b02f92e0e2804e240c664affae29aa86a",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/lightning.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/lightning.toml",
+      "source_sha256": "8b36fac90adcb5a35b8a5c340126c33ee95480268565ccbdcb169c01892d59e9",
+      "import_sha256": "8b36fac90adcb5a35b8a5c340126c33ee95480268565ccbdcb169c01892d59e9",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/melt-close.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/melt-close.glsl",
+      "source_sha256": "cbb8a0c681093e4464ed8543cfde7952135d2f569cae3c848bd75ad3d6b58115",
+      "import_sha256": "cbb8a0c681093e4464ed8543cfde7952135d2f569cae3c848bd75ad3d6b58115",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/melt-open.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/melt-open.glsl",
+      "source_sha256": "069699fb600e3e4cfbb84193f2cac3a730a269503501214c1523f41b3b345c91",
+      "import_sha256": "069699fb600e3e4cfbb84193f2cac3a730a269503501214c1523f41b3b345c91",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/melt.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/melt.toml",
+      "source_sha256": "89226a096aa7e6a8d5a027345f4214a93c88fa5b75665fd141f4e4460ac311ff",
+      "import_sha256": "89226a096aa7e6a8d5a027345f4214a93c88fa5b75665fd141f4e4460ac311ff",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/paper.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/paper.glsl",
+      "source_sha256": "1b26064a4f7f88ec19fec8ec452c9246333515074a408d4b5460083f67dc9e31",
+      "import_sha256": "1b26064a4f7f88ec19fec8ec452c9246333515074a408d4b5460083f67dc9e31",
+      "working_tree": true
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/reveal.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/reveal.glsl",
+      "source_sha256": "ef28bb7da4b1cd15e02b2bcdb9e88edd11d2ce247003163f446c7cf0a09fc7fd",
+      "import_sha256": "ef28bb7da4b1cd15e02b2bcdb9e88edd11d2ce247003163f446c7cf0a09fc7fd",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/ripple-close.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/ripple-close.glsl",
+      "source_sha256": "f7ea523783be6e7478b0642c1d97e5fafe3d85185b2d4c6d9d6d45adf2b3a551",
+      "import_sha256": "f7ea523783be6e7478b0642c1d97e5fafe3d85185b2d4c6d9d6d45adf2b3a551",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/ripple-open.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/ripple-open.glsl",
+      "source_sha256": "bca29f4295b0ecd184720630d4ddf1cd950de516a2ba7ee4e58f4ad6700b9afb",
+      "import_sha256": "bca29f4295b0ecd184720630d4ddf1cd950de516a2ba7ee4e58f4ad6700b9afb",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/ripple.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/ripple.toml",
+      "source_sha256": "81ee82516cdb2f618694625e3a01f6b4708f9d9d5063d8d014e5fbdb5e4d9ffc",
+      "import_sha256": "81ee82516cdb2f618694625e3a01f6b4708f9d9d5063d8d014e5fbdb5e4d9ffc",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/squash.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/squash.glsl",
+      "source_sha256": "4710b9a76d6f7d3b3507fad16e1d90a6ee1e873900ad762401dbe1d5739dd8a8",
+      "import_sha256": "4710b9a76d6f7d3b3507fad16e1d90a6ee1e873900ad762401dbe1d5739dd8a8",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/whirlpool-close.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/whirlpool-close.glsl",
+      "source_sha256": "bd43825ae69d2097dbb70eab849206ff69212a92dc1fa1078c5481ca58bff8d3",
+      "import_sha256": "bd43825ae69d2097dbb70eab849206ff69212a92dc1fa1078c5481ca58bff8d3",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/whirlpool-open.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/whirlpool-open.glsl",
+      "source_sha256": "e9b51950feda3c21cb896aa13c1185fb073527170d23fb10880d3759a3139031",
+      "import_sha256": "e9b51950feda3c21cb896aa13c1185fb073527170d23fb10880d3759a3139031",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations/whirlpool.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations/whirlpool.toml",
+      "source_sha256": "948dc7a12a7e86374d84c766e767732237280792bd2609ed9f78a55ad5353323",
+      "import_sha256": "948dc7a12a7e86374d84c766e767732237280792bd2609ed9f78a55ad5353323",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/animations.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/animations.toml",
+      "source_sha256": "f00eb08b7c1f06f02def27fef893774b76ca77889ee9faf28581b5c9c241bb0f",
+      "import_sha256": "f00eb08b7c1f06f02def27fef893774b76ca77889ee9faf28581b5c9c241bb0f",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/choices.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/choices.toml",
+      "source_sha256": "46e76b134994dbca4ab9bd184254b1b5821fbb330932d016ff11679f6950cdae",
+      "import_sha256": "46e76b134994dbca4ab9bd184254b1b5821fbb330932d016ff11679f6950cdae",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/collection.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/collection.toml",
+      "source_sha256": "522bb3feecdc3000d89b3eaabce8d2c14448877730a3e24f013424bf6168cd4f",
+      "import_sha256": "522bb3feecdc3000d89b3eaabce8d2c14448877730a3e24f013424bf6168cd4f",
+      "working_tree": true
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/adaptive.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/adaptive.glsl",
+      "source_sha256": "0f072ba08277a8b80a0d44f8f650ce4cedb06b2f9bb86a6c699ae6f8ec0fca57",
+      "import_sha256": "0f072ba08277a8b80a0d44f8f650ce4cedb06b2f9bb86a6c699ae6f8ec0fca57",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/adaptive.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/adaptive.toml",
+      "source_sha256": "8967399b4885dd7e9458c171190e5073ec65251010e8d0f34ff1e85cc2891b6a",
+      "import_sha256": "8967399b4885dd7e9458c171190e5073ec65251010e8d0f34ff1e85cc2891b6a",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/blueglow.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/blueglow.glsl",
+      "source_sha256": "0bd587e688ee29d7bd0522f0faec1068834402cbc61e371fe4484b46bbc88cd2",
+      "import_sha256": "0bd587e688ee29d7bd0522f0faec1068834402cbc61e371fe4484b46bbc88cd2",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/blueglow.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/blueglow.toml",
+      "source_sha256": "af0ef5b643523bc766cf71899c8a1659c659a0416b450a1cfd3073cf4083ea47",
+      "import_sha256": "af0ef5b643523bc766cf71899c8a1659c659a0416b450a1cfd3073cf4083ea47",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/comet-0.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/comet-0.glsl",
+      "source_sha256": "3ea0eb6b86d7779355c68d3e20ac3474bc2250d18df8f5add8ae398dba76ab97",
+      "import_sha256": "3ea0eb6b86d7779355c68d3e20ac3474bc2250d18df8f5add8ae398dba76ab97",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/comet-1.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/comet-1.glsl",
+      "source_sha256": "413ff436e68f6afd6820e486d9522bdcfcaa6426cd94f1909eb13766ee1fcfaf",
+      "import_sha256": "413ff436e68f6afd6820e486d9522bdcfcaa6426cd94f1909eb13766ee1fcfaf",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/comet-glow-0.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/comet-glow-0.glsl",
+      "source_sha256": "3ea0eb6b86d7779355c68d3e20ac3474bc2250d18df8f5add8ae398dba76ab97",
+      "import_sha256": "3ea0eb6b86d7779355c68d3e20ac3474bc2250d18df8f5add8ae398dba76ab97",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/comet-glow-1.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/comet-glow-1.glsl",
+      "source_sha256": "dc90111d658d2ce7cc7df25291e52836eb20ce7cea2b4efd009df45dfcd824d9",
+      "import_sha256": "dc90111d658d2ce7cc7df25291e52836eb20ce7cea2b4efd009df45dfcd824d9",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/comet-glow.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/comet-glow.toml",
+      "source_sha256": "78892d24966d3b9a536a7643224e6c6989f309efa8b35a62217563ff876edf2b",
+      "import_sha256": "78892d24966d3b9a536a7643224e6c6989f309efa8b35a62217563ff876edf2b",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/comet.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/comet.toml",
+      "source_sha256": "7a8d2e0410cc08ef0426103b9b360e1d6d7befc4224ab2b3e3b1d1b675d1f743",
+      "import_sha256": "7a8d2e0410cc08ef0426103b9b360e1d6d7befc4224ab2b3e3b1d1b675d1f743",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/rainbow-tunnel-bare.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/rainbow-tunnel-bare.glsl",
+      "source_sha256": "d2ef176b13633f338f03080d12a50453b1fc6f4d35390f2aaa94a11744cccfd7",
+      "import_sha256": "d2ef176b13633f338f03080d12a50453b1fc6f4d35390f2aaa94a11744cccfd7",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/rainbow-tunnel-bare.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/rainbow-tunnel-bare.toml",
+      "source_sha256": "12a5431f0f2ea3ace9f899d6fdd634b6a05f19ab786074cc7db5691ffa40dbcb",
+      "import_sha256": "12a5431f0f2ea3ace9f899d6fdd634b6a05f19ab786074cc7db5691ffa40dbcb",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/rainbow-tunnel.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/rainbow-tunnel.glsl",
+      "source_sha256": "c320888b232baf00228f7d03de48f9df062a1dd803a947ad4144c4e2811e4779",
+      "import_sha256": "c320888b232baf00228f7d03de48f9df062a1dd803a947ad4144c4e2811e4779",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/rainbow-tunnel.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/rainbow-tunnel.toml",
+      "source_sha256": "b95b1a234934e47442e7011c4524412e6ed6ce85cf708f222150dd095e342717",
+      "import_sha256": "b95b1a234934e47442e7011c4524412e6ed6ce85cf708f222150dd095e342717",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/ripple.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/ripple.glsl",
+      "source_sha256": "ac936002f319180374947fe8f01f82ecb662eb667ed55643280a05c86ac9878b",
+      "import_sha256": "ac936002f319180374947fe8f01f82ecb662eb667ed55643280a05c86ac9878b",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/ripple.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/ripple.toml",
+      "source_sha256": "6eb4a7aa3cf35bf14dfa77614e97f4b7d0603f55f112896ca9a898e506f8df60",
+      "import_sha256": "6eb4a7aa3cf35bf14dfa77614e97f4b7d0603f55f112896ca9a898e506f8df60",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/shockwave.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/shockwave.glsl",
+      "source_sha256": "15ccdcf85b3b80a5a91249d99d440278a7d615010c875c6054927b9f7058e3a1",
+      "import_sha256": "15ccdcf85b3b80a5a91249d99d440278a7d615010c875c6054927b9f7058e3a1",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/shockwave.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/shockwave.toml",
+      "source_sha256": "da842ea549042aff50adce4c2e3b6147273c7bc99f13427b78cd7195cd44b981",
+      "import_sha256": "da842ea549042aff50adce4c2e3b6147273c7bc99f13427b78cd7195cd44b981",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/spotlight.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/spotlight.glsl",
+      "source_sha256": "a7c7e6ac6a5d359b64d26e59747ef6d134a59231cf9d3c278f54b453523ec22d",
+      "import_sha256": "a7c7e6ac6a5d359b64d26e59747ef6d134a59231cf9d3c278f54b453523ec22d",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/spotlight.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/spotlight.toml",
+      "source_sha256": "b75ddca64bb11bf72eb1214779736eb5c6ed9b01fbb0093205e6d47b7188f25e",
+      "import_sha256": "b75ddca64bb11bf72eb1214779736eb5c6ed9b01fbb0093205e6d47b7188f25e",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/trail.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/trail.glsl",
+      "source_sha256": "36458724f0f29d79b7736f9e31e96b85329fb0ddf9234bc0f7653d8edbc0a879",
+      "import_sha256": "36458724f0f29d79b7736f9e31e96b85329fb0ddf9234bc0f7653d8edbc0a879",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/cursor/trail.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/cursor/trail.toml",
+      "source_sha256": "a0fe7249bdf6436b5ef44864e56329772bdbb183142ac40e7d89276b60eff3a2",
+      "import_sha256": "a0fe7249bdf6436b5ef44864e56329772bdbb183142ac40e7d89276b60eff3a2",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/paper.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/paper.toml",
+      "source_sha256": "6ab5d3621d0278a61d1e391565ad376a23cfa43e7e2810a3494f6eae26726beb",
+      "import_sha256": "6ab5d3621d0278a61d1e391565ad376a23cfa43e7e2810a3494f6eae26726beb",
+      "working_tree": true
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/fuse.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/fuse.glsl",
+      "source_sha256": "6218273731f43dc1057e8fd5e9b98bf9d67cda89518ceee109d268a338d4ac37",
+      "import_sha256": "6218273731f43dc1057e8fd5e9b98bf9d67cda89518ceee109d268a338d4ac37",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/fuse.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/fuse.toml",
+      "source_sha256": "89865a7f9c37d3c6a2085290ad2d7962597d735baf985c17b84d8d331fcefedd",
+      "import_sha256": "89865a7f9c37d3c6a2085290ad2d7962597d735baf985c17b84d8d331fcefedd",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/lightning.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/lightning.glsl",
+      "source_sha256": "d86db06d99cdf77bd5d24d5e5baf3da81e82eb3d708a2c3eaad20587480f9e51",
+      "import_sha256": "d86db06d99cdf77bd5d24d5e5baf3da81e82eb3d708a2c3eaad20587480f9e51",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/lightning.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/lightning.toml",
+      "source_sha256": "3b788c0d05ff229cb30739ad159ea9c4596281d59ddac1e9adf46d1b157959b5",
+      "import_sha256": "3b788c0d05ff229cb30739ad159ea9c4596281d59ddac1e9adf46d1b157959b5",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/neon-bleed.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/neon-bleed.glsl",
+      "source_sha256": "ed745c8ae1098f9f4c78972a7c4a54d883abc4543dce4d1a98da521904264e9a",
+      "import_sha256": "8eae1564ee94f82d9441b4cf3133624a7c3e8bb11e6066eca99db6c6508a7ccd",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/neon-bleed.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/neon-bleed.toml",
+      "source_sha256": "3731eda6edb4846f08d9b69cd5334340bfb921f7498547994224fe9332a0f56e",
+      "import_sha256": "3731eda6edb4846f08d9b69cd5334340bfb921f7498547994224fe9332a0f56e",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/portal-lava.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/portal-lava.glsl",
+      "source_sha256": "5533f306a5750c7db59713e0c769fb2a8d2693e22399067f214f38d4523a284b",
+      "import_sha256": "46edaad2986225e089a15876ba06b8acf637a3964fb7f0ac3c77aa770a7ba4b8",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/portal-lava.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/portal-lava.toml",
+      "source_sha256": "7ba95038675e24822433733277518b8b94f1f4dca7df9d3499ebaaaed6b3676f",
+      "import_sha256": "7ba95038675e24822433733277518b8b94f1f4dca7df9d3499ebaaaed6b3676f",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/pulse.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/pulse.glsl",
+      "source_sha256": "a243b4279ba65e755ecb2af58dab11be2d6a78d52378d4bf2582b64dffc1a085",
+      "import_sha256": "a243b4279ba65e755ecb2af58dab11be2d6a78d52378d4bf2582b64dffc1a085",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/pulse.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/pulse.toml",
+      "source_sha256": "c4219a51bbec4787cd4ff618abbb864b5b91ae2cc098a40b15eedcb173297ca1",
+      "import_sha256": "c4219a51bbec4787cd4ff618abbb864b5b91ae2cc098a40b15eedcb173297ca1",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/rainbow-ripple.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/rainbow-ripple.glsl",
+      "source_sha256": "f44adb38cca3f6c4e6817f7c43234a866d7f5128e39f06e8a361c75a46ea454d",
+      "import_sha256": "f44adb38cca3f6c4e6817f7c43234a866d7f5128e39f06e8a361c75a46ea454d",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/rainbow-ripple.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/rainbow-ripple.toml",
+      "source_sha256": "bcbc8e0ad92389c88c24d0e100e831e9b6ee5b8c6afb36b833f540679809f091",
+      "import_sha256": "bcbc8e0ad92389c88c24d0e100e831e9b6ee5b8c6afb36b833f540679809f091",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/rings/scribbling-pencils.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/rings/scribbling-pencils.glsl",
+      "source_sha256": "975fc7c995954dd7852842e736673ca8150f34ea0e0ec1a09746f9495ef31859",
+      "import_sha256": "975fc7c995954dd7852842e736673ca8150f34ea0e0ec1a09746f9495ef31859",
+      "working_tree": true
+    },
+    {
+      "file": "shaders/umbriel/collection/screen/crt.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/screen/crt.glsl",
+      "source_sha256": "801066385f8c28a08d2ac88a0916a5dc3b53e87dd6cff13c53c9f9e7ed256745",
+      "import_sha256": "801066385f8c28a08d2ac88a0916a5dc3b53e87dd6cff13c53c9f9e7ed256745",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/screen/crt.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/screen/crt.toml",
+      "source_sha256": "46fd74bc9fda0b30e2c43ead18c447ac28bc0669bbaed56e00beeb12d7f9b21b",
+      "import_sha256": "46fd74bc9fda0b30e2c43ead18c447ac28bc0669bbaed56e00beeb12d7f9b21b",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/screen/grayscale.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/screen/grayscale.glsl",
+      "source_sha256": "41553aa60488fe845d0c5d8e02d2a3f6274aa0d492153d012ff14473e334a5b3",
+      "import_sha256": "41553aa60488fe845d0c5d8e02d2a3f6274aa0d492153d012ff14473e334a5b3",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/screen/grayscale.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/screen/grayscale.toml",
+      "source_sha256": "4bacba005dd09dbf3dd5a188b35925a0e43864f23a7babb0544e7658abdc588f",
+      "import_sha256": "4bacba005dd09dbf3dd5a188b35925a0e43864f23a7babb0544e7658abdc588f",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/screen/vignette.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/screen/vignette.glsl",
+      "source_sha256": "5e5bf44d8cc0e64a1da33a8bbd94a27038ad4af56dad3ead0bfed539a521a65f",
+      "import_sha256": "5e5bf44d8cc0e64a1da33a8bbd94a27038ad4af56dad3ead0bfed539a521a65f",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/screen/vignette.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/screen/vignette.toml",
+      "source_sha256": "1e729f7c7348c4674ba7e9e2510c6b36082a508a6085f16ed2f0050d792cc815",
+      "import_sha256": "1e729f7c7348c4674ba7e9e2510c6b36082a508a6085f16ed2f0050d792cc815",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/screen/warmtint.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/screen/warmtint.glsl",
+      "source_sha256": "614eb7617503b3e72893cfffc7daef55700629071e4df5468e86787c3e88bb9b",
+      "import_sha256": "614eb7617503b3e72893cfffc7daef55700629071e4df5468e86787c3e88bb9b",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/screen/warmtint.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/screen/warmtint.toml",
+      "source_sha256": "2f597a1b351bd1ae6a9b35512fd46a8b2182f6afc0572a0074c15e21c1f98aac",
+      "import_sha256": "2f597a1b351bd1ae6a9b35512fd46a8b2182f6afc0572a0074c15e21c1f98aac",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/adaptive-text-v3.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/adaptive-text-v3.glsl",
+      "source_sha256": "690838a19f6af8a5ee3374fbe65cb285a128eaa3c770f7fd49c651bb56bb8d82",
+      "import_sha256": "690838a19f6af8a5ee3374fbe65cb285a128eaa3c770f7fd49c651bb56bb8d82",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/adaptive-text-v3.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/adaptive-text-v3.toml",
+      "source_sha256": "f18307434216978ae5f997b80a346d8462f830d94766fee3265ffdc579dbc9c7",
+      "import_sha256": "f18307434216978ae5f997b80a346d8462f830d94766fee3265ffdc579dbc9c7",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/adaptive-text-v4.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/adaptive-text-v4.glsl",
+      "source_sha256": "06e94310f51f9aae997ac677b968f762d1893d9595abf8085ae1b6e586e29bde",
+      "import_sha256": "06e94310f51f9aae997ac677b968f762d1893d9595abf8085ae1b6e586e29bde",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/adaptive-text-v4.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/adaptive-text-v4.toml",
+      "source_sha256": "f87776e974b9f70865861bd9d6c2e1f28ccd2c767e8a0d6c85c746d3b4013534",
+      "import_sha256": "f87776e974b9f70865861bd9d6c2e1f28ccd2c767e8a0d6c85c746d3b4013534",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/autumn-leaves.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/autumn-leaves.glsl",
+      "source_sha256": "aea4620f6021ba51acebf4009e8d572aece82335c2f744ece5bda4c5e7fdd5f0",
+      "import_sha256": "aea4620f6021ba51acebf4009e8d572aece82335c2f744ece5bda4c5e7fdd5f0",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/autumn-leaves.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/autumn-leaves.toml",
+      "source_sha256": "1ba8a45cd9f6156bfd033c4fb8d6f240c79403eb4a14e83d1bdc67b56a4cd54c",
+      "import_sha256": "1ba8a45cd9f6156bfd033c4fb8d6f240c79403eb4a14e83d1bdc67b56a4cd54c",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/crt.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/crt.glsl",
+      "source_sha256": "13571967c2be7ff4be0d007a6313eb39fb58466742596c165e29ff30712cf898",
+      "import_sha256": "13571967c2be7ff4be0d007a6313eb39fb58466742596c165e29ff30712cf898",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/crt.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/crt.toml",
+      "source_sha256": "b17a95de58d76dfc2eb2979782b1e20eecdc5e124e68174e7d38ff319405eb06",
+      "import_sha256": "b17a95de58d76dfc2eb2979782b1e20eecdc5e124e68174e7d38ff319405eb06",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/crumpled-paper.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/crumpled-paper.glsl",
+      "source_sha256": "dde3a5321760c99b2067de39f0696143f89d94fe9bf0a0276b59d514edde2e8f",
+      "import_sha256": "dde3a5321760c99b2067de39f0696143f89d94fe9bf0a0276b59d514edde2e8f",
+      "working_tree": true
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-deutan-alphabet.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-deutan-alphabet.glsl",
+      "source_sha256": "4ae031cf6b16d9e1d959ad5c06d335a5973195792d15415ac742c4d2ea5610f1",
+      "import_sha256": "4ae031cf6b16d9e1d959ad5c06d335a5973195792d15415ac742c4d2ea5610f1",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-deutan-alphabet.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-deutan-alphabet.toml",
+      "source_sha256": "75865c1ae3674ee115b64bbfe7a7484fea09501b86699e6f6d502abb43d638ce",
+      "import_sha256": "75865c1ae3674ee115b64bbfe7a7484fea09501b86699e6f6d502abb43d638ce",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-deutan-combo.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-deutan-combo.glsl",
+      "source_sha256": "0318e8dab2283609669dbc6adbb50b6979b005c9569eeb2c79cfae16611d8a56",
+      "import_sha256": "0318e8dab2283609669dbc6adbb50b6979b005c9569eeb2c79cfae16611d8a56",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-deutan-combo.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-deutan-combo.toml",
+      "source_sha256": "60aff3f723174cc4e50efa390c21c5f9bc405c5abde7de44666df1d62b015686",
+      "import_sha256": "60aff3f723174cc4e50efa390c21c5f9bc405c5abde7de44666df1d62b015686",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-deutan-drift.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-deutan-drift.glsl",
+      "source_sha256": "e211032f86a15c6df52106fbe818ba6e352ed1ace7d117c18042da45db407d72",
+      "import_sha256": "e211032f86a15c6df52106fbe818ba6e352ed1ace7d117c18042da45db407d72",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-deutan-drift.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-deutan-drift.toml",
+      "source_sha256": "a80c5e0d062cff2a3627319e9fe0d96ee7df529fe1ddb08852d2c8669945b627",
+      "import_sha256": "a80c5e0d062cff2a3627319e9fe0d96ee7df529fe1ddb08852d2c8669945b627",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-deutan-oriented.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-deutan-oriented.glsl",
+      "source_sha256": "4977f5d4ae13dcc48a2fdc2bdcb6ff5583975223dff470982498711901d1dde0",
+      "import_sha256": "4977f5d4ae13dcc48a2fdc2bdcb6ff5583975223dff470982498711901d1dde0",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-deutan-oriented.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-deutan-oriented.toml",
+      "source_sha256": "c61a8f03aaebea8b376ca922c26a31c6b24bc8f554ebbf5ca6bd745077c54979",
+      "import_sha256": "c61a8f03aaebea8b376ca922c26a31c6b24bc8f554ebbf5ca6bd745077c54979",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-deutan.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-deutan.glsl",
+      "source_sha256": "74238dc9fed4fb739eae09fd86e61fb979f6e0208cea879bce21afae72a4ba6e",
+      "import_sha256": "74238dc9fed4fb739eae09fd86e61fb979f6e0208cea879bce21afae72a4ba6e",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-deutan.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-deutan.toml",
+      "source_sha256": "2f3a74b41683ac2951f8da204f460ec7c3ee65edb009c9fb8893e74cfad8ad24",
+      "import_sha256": "2f3a74b41683ac2951f8da204f460ec7c3ee65edb009c9fb8893e74cfad8ad24",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-protan.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-protan.glsl",
+      "source_sha256": "c6fecf8e155cd2e7860c5490f01f8ccb1c4bbacb8929e781b3311f23cc9174a0",
+      "import_sha256": "c6fecf8e155cd2e7860c5490f01f8ccb1c4bbacb8929e781b3311f23cc9174a0",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-protan.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-protan.toml",
+      "source_sha256": "6161d052e5bd8a96c1e43454b0694b144a32800c87a329bd37280adf80b2bcdc",
+      "import_sha256": "6161d052e5bd8a96c1e43454b0694b144a32800c87a329bd37280adf80b2bcdc",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-tritan.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-tritan.glsl",
+      "source_sha256": "9d9e07c03e3ccc19b4311ebefbc41615157367e953760942e6f2e7214e0e3477",
+      "import_sha256": "9d9e07c03e3ccc19b4311ebefbc41615157367e953760942e6f2e7214e0e3477",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/cvd-tritan.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/cvd-tritan.toml",
+      "source_sha256": "5f61f2406b555365b0b18378d7104b46f0eb3d447ded8c9e1d65513908318821",
+      "import_sha256": "5f61f2406b555365b0b18378d7104b46f0eb3d447ded8c9e1d65513908318821",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/film-grain.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/film-grain.glsl",
+      "source_sha256": "d9361530c84520a638e84ba35bb7b8254203502dfe20601646d935a9365d8aaf",
+      "import_sha256": "d9361530c84520a638e84ba35bb7b8254203502dfe20601646d935a9365d8aaf",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/film-grain.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/film-grain.toml",
+      "source_sha256": "7f76b3d7cf48968cf3d885dea601b25eb199a97ad262e1943c291c722b0849d9",
+      "import_sha256": "7f76b3d7cf48968cf3d885dea601b25eb199a97ad262e1943c291c722b0849d9",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/fire-tendrils.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/fire-tendrils.glsl",
+      "source_sha256": "33b355dc72920448995ffed3db22e96ca42f90ab6be72725789695d1707cbc3d",
+      "import_sha256": "33b355dc72920448995ffed3db22e96ca42f90ab6be72725789695d1707cbc3d",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/fire-tendrils.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/fire-tendrils.toml",
+      "source_sha256": "be9693d62391e105eb0b723da6bbd9b31aa94ef617305c9bba40bbe7bf1d9ef7",
+      "import_sha256": "be9693d62391e105eb0b723da6bbd9b31aa94ef617305c9bba40bbe7bf1d9ef7",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/fire.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/fire.glsl",
+      "source_sha256": "cb76160d7e04c97be5742a9dc6dc8162414f4ca6bf4ff4c14517a5a604e154be",
+      "import_sha256": "cb76160d7e04c97be5742a9dc6dc8162414f4ca6bf4ff4c14517a5a604e154be",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/fire.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/fire.toml",
+      "source_sha256": "56a1650da0d7a60f195c18089ca97b4c928ecef26508a528a6852ebdefd5e036",
+      "import_sha256": "56a1650da0d7a60f195c18089ca97b4c928ecef26508a528a6852ebdefd5e036",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/fisheye-rgb.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/fisheye-rgb.glsl",
+      "source_sha256": "92e0cb60e8dd5c7e4f51c0c20409e0f098c3b7d77c4d472ff83514b7ec5ca754",
+      "import_sha256": "92e0cb60e8dd5c7e4f51c0c20409e0f098c3b7d77c4d472ff83514b7ec5ca754",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/fisheye-rgb.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/fisheye-rgb.toml",
+      "source_sha256": "fc5bff34395612795a7e040a88b4d2a232bc9b1289068f8520c314bdb36b0c41",
+      "import_sha256": "fc5bff34395612795a7e040a88b4d2a232bc9b1289068f8520c314bdb36b0c41",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/mercury-sheen.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/mercury-sheen.glsl",
+      "source_sha256": "bd8d08ad8f932755345710464cf78dab70209579844f93396856ac6dce95cf0f",
+      "import_sha256": "bd8d08ad8f932755345710464cf78dab70209579844f93396856ac6dce95cf0f",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/mercury-sheen.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/mercury-sheen.toml",
+      "source_sha256": "03e3cf1685ea9ba0a9428e4413021ff2d15d23622cf80b8b78aabac75679d122",
+      "import_sha256": "03e3cf1685ea9ba0a9428e4413021ff2d15d23622cf80b8b78aabac75679d122",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/neon-bleed-overlay.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/neon-bleed-overlay.glsl",
+      "source_sha256": "f07e0bac1f63b46ab0f5347f14ba71627ba4df898010fbaed2945f5f0bed366b",
+      "import_sha256": "1e144acd4090e8bca22f00888196943915d9396672b2019a946d68f1b65872cf",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/parchment-dark.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/parchment-dark.glsl",
+      "source_sha256": "4e1d365e174f8570c5ad53e69931e436550fe981fadbb45c026ef4f5c784c1b0",
+      "import_sha256": "4e1d365e174f8570c5ad53e69931e436550fe981fadbb45c026ef4f5c784c1b0",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/parchment-dark.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/parchment-dark.toml",
+      "source_sha256": "81c11c70a090bec942f1a622a167509d18cc01b94bcfe49c848b2a40f6deeea9",
+      "import_sha256": "81c11c70a090bec942f1a622a167509d18cc01b94bcfe49c848b2a40f6deeea9",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/parchment.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/parchment.glsl",
+      "source_sha256": "289040895a0d980bec2b312c3a8801a9f7ff957cba4d9fd2e1842ac585ad5c27",
+      "import_sha256": "289040895a0d980bec2b312c3a8801a9f7ff957cba4d9fd2e1842ac585ad5c27",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/parchment.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/parchment.toml",
+      "source_sha256": "0caae48aacc6468e07106b9061c28689ea14bf62511ceaf9deef4132206f86b4",
+      "import_sha256": "0caae48aacc6468e07106b9061c28689ea14bf62511ceaf9deef4132206f86b4",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/pixel-mosaic.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/pixel-mosaic.glsl",
+      "source_sha256": "9f1f7d0c0e19748f185f542ccc1c0fcaa9fede8f1ec9888a8b2459cf6659d0e7",
+      "import_sha256": "9f1f7d0c0e19748f185f542ccc1c0fcaa9fede8f1ec9888a8b2459cf6659d0e7",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/pixel-mosaic.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/pixel-mosaic.toml",
+      "source_sha256": "709a3a24f60f87882f265fdffd062e26c52233fc8dbfb55e730262a48b232065",
+      "import_sha256": "709a3a24f60f87882f265fdffd062e26c52233fc8dbfb55e730262a48b232065",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/portal-lava-overlay.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/portal-lava-overlay.glsl",
+      "source_sha256": "a29e4c1d68a7bf039d98439060b9b3da074cd06566e81877d6228441e2b56565",
+      "import_sha256": "d532730331fd6e72faf8d2a4053d12dbbc00ffe5b2890742dc15e86677dd85be",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/prairie-wind.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/prairie-wind.glsl",
+      "source_sha256": "3d5a2b9fcb262123f84664d44baa20bdce41a6be36ff1f4c6d4592f454493bd0",
+      "import_sha256": "3d5a2b9fcb262123f84664d44baa20bdce41a6be36ff1f4c6d4592f454493bd0",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/prairie-wind.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/prairie-wind.toml",
+      "source_sha256": "bc0073a98111a60b50256f0f44ac96008055b98865dfd04bc96d750d3bd667ba",
+      "import_sha256": "bc0073a98111a60b50256f0f44ac96008055b98865dfd04bc96d750d3bd667ba",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rainbow-radial.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rainbow-radial.glsl",
+      "source_sha256": "bc4647ee2dcae26618b3709a784058742023064fb245390f20cb9baa71c83bef",
+      "import_sha256": "bc4647ee2dcae26618b3709a784058742023064fb245390f20cb9baa71c83bef",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rainbow-radial.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rainbow-radial.toml",
+      "source_sha256": "8aa29940c04be34e73bb8271217f210b007524ec40105c71606c192fc859cdf5",
+      "import_sha256": "8aa29940c04be34e73bb8271217f210b007524ec40105c71606c192fc859cdf5",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rainbow-smoke.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rainbow-smoke.glsl",
+      "source_sha256": "6a5c186888a82d64d1cdf9092f520f03674b61e27a033632dfe928cffa92bfb9",
+      "import_sha256": "6a5c186888a82d64d1cdf9092f520f03674b61e27a033632dfe928cffa92bfb9",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rainbow-smoke.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rainbow-smoke.toml",
+      "source_sha256": "aa5509fe8893435a7b50a85e16bc005d6132e7c3d1974400a2b7e79dee2f107c",
+      "import_sha256": "aa5509fe8893435a7b50a85e16bc005d6132e7c3d1974400a2b7e79dee2f107c",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rainbow-waves.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rainbow-waves.glsl",
+      "source_sha256": "735fc50eb60f09cc8c0b35963ee75f168c71bc0c3e8960b6d606f249b4ff6921",
+      "import_sha256": "735fc50eb60f09cc8c0b35963ee75f168c71bc0c3e8960b6d606f249b4ff6921",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rainbow-waves.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rainbow-waves.toml",
+      "source_sha256": "65c7082278d52915fb63c39cfc64f84c5adcd628fe7d64cdaa482d11350e03bf",
+      "import_sha256": "65c7082278d52915fb63c39cfc64f84c5adcd628fe7d64cdaa482d11350e03bf",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rainfall.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rainfall.glsl",
+      "source_sha256": "2f76d57de0f90c2a9abbc4207b28cc1108ac9d3897139ec25030f754db6a8c80",
+      "import_sha256": "2f76d57de0f90c2a9abbc4207b28cc1108ac9d3897139ec25030f754db6a8c80",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rainfall.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rainfall.toml",
+      "source_sha256": "10b8460435e2b3d68f272dbb04eb2437210b3639cee7ddd70d4df34742ee3144",
+      "import_sha256": "10b8460435e2b3d68f272dbb04eb2437210b3639cee7ddd70d4df34742ee3144",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rgb-border.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rgb-border.glsl",
+      "source_sha256": "96d8f62799c3ec14c45107681b4606263701e003c96ba45f97922328772d8b84",
+      "import_sha256": "96d8f62799c3ec14c45107681b4606263701e003c96ba45f97922328772d8b84",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rgb-border.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rgb-border.toml",
+      "source_sha256": "ad1be3d3fc791d05a0d96a7127ca8feff2988f08c1f0caff1a4891bd27ade889",
+      "import_sha256": "ad1be3d3fc791d05a0d96a7127ca8feff2988f08c1f0caff1a4891bd27ade889",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rgb-shimmer.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rgb-shimmer.glsl",
+      "source_sha256": "8ea244168369c3862b73ec517300f4d27d2166a23a639689a49539b391bc5230",
+      "import_sha256": "8ea244168369c3862b73ec517300f4d27d2166a23a639689a49539b391bc5230",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rgb-shimmer.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rgb-shimmer.toml",
+      "source_sha256": "c47f70ab29d7ea2b99d9ff8a942db648b0cd317737ac737ce156fe06bf46ad4b",
+      "import_sha256": "c47f70ab29d7ea2b99d9ff8a942db648b0cd317737ac737ce156fe06bf46ad4b",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/ripple-drops.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/ripple-drops.glsl",
+      "source_sha256": "580850fdd52012d766f3584a15f85ac80be171be5f3e928d4c31207523f9e64f",
+      "import_sha256": "580850fdd52012d766f3584a15f85ac80be171be5f3e928d4c31207523f9e64f",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/ripple-drops.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/ripple-drops.toml",
+      "source_sha256": "9c39cebfa59348b40736764c8928f43d8c2bfab81c058b4526733e87dd242e55",
+      "import_sha256": "9c39cebfa59348b40736764c8928f43d8c2bfab81c058b4526733e87dd242e55",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rolling-clouds.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rolling-clouds.glsl",
+      "source_sha256": "6a5c164c9b4e8da294c98e78fc19cbe312c31eda7aa5bfc095bfee49b161aebe",
+      "import_sha256": "6a5c164c9b4e8da294c98e78fc19cbe312c31eda7aa5bfc095bfee49b161aebe",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rolling-clouds.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rolling-clouds.toml",
+      "source_sha256": "24f28c0b58a2b55bc132be3e93b0e4b2984c7a3f95cc7596aa00b3192e4e423f",
+      "import_sha256": "24f28c0b58a2b55bc132be3e93b0e4b2984c7a3f95cc7596aa00b3192e4e423f",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rorschach.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rorschach.glsl",
+      "source_sha256": "7c3cae186fdab32df3e5644a19f9c344b219cff701b26de2136d4754bdda5f94",
+      "import_sha256": "7c3cae186fdab32df3e5644a19f9c344b219cff701b26de2136d4754bdda5f94",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rorschach.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rorschach.toml",
+      "source_sha256": "118c83b1d9ff938b7409ee27309079dffce8a822f9589c53007b0f104ecae48a",
+      "import_sha256": "118c83b1d9ff938b7409ee27309079dffce8a822f9589c53007b0f104ecae48a",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rorschach2.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rorschach2.glsl",
+      "source_sha256": "6269bf0b6b73f75a7491506761840c08dccc3cd746e7022d56aadf1cba421909",
+      "import_sha256": "6269bf0b6b73f75a7491506761840c08dccc3cd746e7022d56aadf1cba421909",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/rorschach2.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/rorschach2.toml",
+      "source_sha256": "78c37891a462cc03b8e542899c4965d58c6e3f6fd2885a8db12d7f2773d99f2e",
+      "import_sha256": "78c37891a462cc03b8e542899c4965d58c6e3f6fd2885a8db12d7f2773d99f2e",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/scribbling-pencils-overlay.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/scribbling-pencils-overlay.glsl",
+      "source_sha256": "c0110f539b9af0cd2c03b206725c090f3859ffb25acfd3a59829cf98e3dd9692",
+      "import_sha256": "c0110f539b9af0cd2c03b206725c090f3859ffb25acfd3a59829cf98e3dd9692",
+      "working_tree": true
+    },
+    {
+      "file": "shaders/umbriel/collection/window/snowfall.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/snowfall.glsl",
+      "source_sha256": "0fc1810d5dcc4f2404848a2c810685f20f0936073258bc2bc99758522509704c",
+      "import_sha256": "0fc1810d5dcc4f2404848a2c810685f20f0936073258bc2bc99758522509704c",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/window/snowfall.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/window/snowfall.toml",
+      "source_sha256": "099e4b8d54e49f494ddfa3b1d2021aa5f71f6ac07386946893593b2ebe38e3af",
+      "import_sha256": "099e4b8d54e49f494ddfa3b1d2021aa5f71f6ac07386946893593b2ebe38e3af",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/windows.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/shaders/barrulus/windows.toml",
+      "source_sha256": "44bf2d08d92ec36b0693741965fe88218954d592eba6d7c673ee35e7e6f63f91",
+      "import_sha256": "44bf2d08d92ec36b0693741965fe88218954d592eba6d7c673ee35e7e6f63f91",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/animations/wobbly-lifecycle.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/animations/wobbly-lifecycle.glsl",
+      "source_sha256": "e8b94512c1add09fc997858383a72d8865ff2bce12aba727ddbd1bdcdbaac4c3",
+      "import_sha256": "e8b94512c1add09fc997858383a72d8865ff2bce12aba727ddbd1bdcdbaac4c3",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/animations/wobbly-move.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/animations/wobbly-move.glsl",
+      "source_sha256": "5231712312717f03f81aa1a8cc4dbc0f36387735186b89c8fc4a2b0022f8af74",
+      "import_sha256": "5231712312717f03f81aa1a8cc4dbc0f36387735186b89c8fc4a2b0022f8af74",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/bleed/droplets.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/bleed/droplets.glsl",
+      "source_sha256": "5b951067b986076237dc1bc2ec22cbead2d451894eb8515f417e527718126ea3",
+      "import_sha256": "5b951067b986076237dc1bc2ec22cbead2d451894eb8515f417e527718126ea3",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/bleed/neon.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/bleed/neon.glsl",
+      "source_sha256": "a6f915e5a16954fb890732e7bc5e027ab79482aac89fc504edc3b1fec864d47d",
+      "import_sha256": "a6f915e5a16954fb890732e7bc5e027ab79482aac89fc504edc3b1fec864d47d",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/bleed/portal.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/bleed/portal.glsl",
+      "source_sha256": "e2eeb265365080f5750b72b5e2e0ae35aa8d02754a76788aca91696026ac1a82",
+      "import_sha256": "e2eeb265365080f5750b72b5e2e0ae35aa8d02754a76788aca91696026ac1a82",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/generate-bleed-overlays.py",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/generate-bleed-overlays.py",
+      "source_sha256": "ac37fee3f85865fb28eb38e4f99458a10a0d6f4efda57f2a6e897ab694f20cf4",
+      "import_sha256": "ac37fee3f85865fb28eb38e4f99458a10a0d6f4efda57f2a6e897ab694f20cf4",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/generate-magic-overlay.py",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/generate-magic-overlay.py",
+      "source_sha256": "60bea9140c2ecc9567a94f3159cdf7dfc5b1245617e30cfb1a0cab9ac6ccf2b6",
+      "import_sha256": "60bea9140c2ecc9567a94f3159cdf7dfc5b1245617e30cfb1a0cab9ac6ccf2b6",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/generate-ripple-overlay.py",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/generate-ripple-overlay.py",
+      "source_sha256": "795537b56b516b2aaf2e8765bdab219cee3ea8af80f7103db589befd3021940b",
+      "import_sha256": "795537b56b516b2aaf2e8765bdab219cee3ea8af80f7103db589befd3021940b",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/generate-vine-overlay.py",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/generate-vine-overlay.py",
+      "source_sha256": "dab1017988ba24c0851e2179d47c8b89c7d308bb755abb91f5f8b3d5c700ced2",
+      "import_sha256": "dab1017988ba24c0851e2179d47c8b89c7d308bb755abb91f5f8b3d5c700ced2",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/rings/faerie-magic.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/rings/faerie-magic.glsl",
+      "source_sha256": "e3e5c3f7748c32876f6145e0c4d84bff52916a1aedce6d8d3bf8957fb8f7f33e",
+      "import_sha256": "e3e5c3f7748c32876f6145e0c4d84bff52916a1aedce6d8d3bf8957fb8f7f33e",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/rings/flowering-vine.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/rings/flowering-vine.glsl",
+      "source_sha256": "f24c78b6d6c9cd07e379004168227b51765e580bff03473630c7593936c36a50",
+      "import_sha256": "f24c78b6d6c9cd07e379004168227b51765e580bff03473630c7593936c36a50",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/rings/flowing-water.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/rings/flowing-water.glsl",
+      "source_sha256": "1e9d5061998fd164abd359db51864a63a87f4f9e065132fec42356c9dc6a2c02",
+      "import_sha256": "1e9d5061998fd164abd359db51864a63a87f4f9e065132fec42356c9dc6a2c02",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/rings/fuse.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/rings/fuse.glsl",
+      "source_sha256": "5ff75bfdd2a09729fbd6fc820ea5b47c37c2158ed6eafbd3bc31dfdc194b7538",
+      "import_sha256": "5ff75bfdd2a09729fbd6fc820ea5b47c37c2158ed6eafbd3bc31dfdc194b7538",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/rings/lightning.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/rings/lightning.glsl",
+      "source_sha256": "b64a1fd9570f32cc5c3a64e2b175389c308bd2fc961d05645ba615382a37c76c",
+      "import_sha256": "b64a1fd9570f32cc5c3a64e2b175389c308bd2fc961d05645ba615382a37c76c",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/rings/neon-bleed.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/rings/neon-bleed.glsl",
+      "source_sha256": "bddee71d88c84927a84c4c3db90482f951c9629937bbc8acff3304d9255c4727",
+      "import_sha256": "bddee71d88c84927a84c4c3db90482f951c9629937bbc8acff3304d9255c4727",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/rings/portal-lava.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/rings/portal-lava.glsl",
+      "source_sha256": "e5563c65461a2d494cfc7d456c85ec49159d051a6c779de69c9bf3ee373443b3",
+      "import_sha256": "e5563c65461a2d494cfc7d456c85ec49159d051a6c779de69c9bf3ee373443b3",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/rings/portal.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/rings/portal.glsl",
+      "source_sha256": "b4171cb48670a894c9521fd6990759eac11ffbbc2c2c76861ddad04921a536bd",
+      "import_sha256": "b4171cb48670a894c9521fd6990759eac11ffbbc2c2c76861ddad04921a536bd",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/rings/pulse.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/rings/pulse.glsl",
+      "source_sha256": "57bc1dee6039bdd72de33ba8c301ddf764aa200402dfcbe2a8c840f287aab963",
+      "import_sha256": "57bc1dee6039bdd72de33ba8c301ddf764aa200402dfcbe2a8c840f287aab963",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/rings/rainbow-ripple.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/rings/rainbow-ripple.glsl",
+      "source_sha256": "89ec4ff08cfe36ede74ef91ca1458178c1974c37451e857d5df91b36cfa59f8b",
+      "import_sha256": "89ec4ff08cfe36ede74ef91ca1458178c1974c37451e857d5df91b36cfa59f8b",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/rings/sentient-runner.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/rings/sentient-runner.glsl",
+      "source_sha256": "7fdf8827b39cde10fadb6266ef498903dbed5280c37bec3d7e29b58020cd7cfb",
+      "import_sha256": "7fdf8827b39cde10fadb6266ef498903dbed5280c37bec3d7e29b58020cd7cfb",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/rings/sentient-spark.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/rings/sentient-spark.glsl",
+      "source_sha256": "f46374dbf706eae87b76b5f2bf29aa7f0d22b8013809f4723bb84cc689945ea8",
+      "import_sha256": "f46374dbf706eae87b76b5f2bf29aa7f0d22b8013809f4723bb84cc689945ea8",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/adaptive-text-v3.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/adaptive-text-v3.glsl",
+      "source_sha256": "a171df2bf337e6ca146253aefd3c08f6263dac2c0b7b89d1bca77e932cb51232",
+      "import_sha256": "a171df2bf337e6ca146253aefd3c08f6263dac2c0b7b89d1bca77e932cb51232",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/adaptive-text-v4.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/adaptive-text-v4.glsl",
+      "source_sha256": "de4d3da0fb96ffbe1ccbfe3fbf56cabc16cb9e5d50fb0424daaf5766133378cc",
+      "import_sha256": "de4d3da0fb96ffbe1ccbfe3fbf56cabc16cb9e5d50fb0424daaf5766133378cc",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/autumn-leaves.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/autumn-leaves.glsl",
+      "source_sha256": "291114159734967c1f15022d717d6b72e8e371d6f4305d400280760081bfefae",
+      "import_sha256": "291114159734967c1f15022d717d6b72e8e371d6f4305d400280760081bfefae",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/crt.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/crt.glsl",
+      "source_sha256": "0fd1414837e5ae56986e52f7438e8ee6cdb3859fe196c31199ceffc62a651d92",
+      "import_sha256": "0fd1414837e5ae56986e52f7438e8ee6cdb3859fe196c31199ceffc62a651d92",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/cvd-deutan-alphabet.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/cvd-deutan-alphabet.glsl",
+      "source_sha256": "3bcba8bd60e17556362e41dba18aad0894342fc953eb2cf90e08e7cab424c9bf",
+      "import_sha256": "3bcba8bd60e17556362e41dba18aad0894342fc953eb2cf90e08e7cab424c9bf",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/cvd-deutan-combo.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/cvd-deutan-combo.glsl",
+      "source_sha256": "b4206e4981b363e75d4248b95ab962616363ff396b6ef857ee1354f0703d097d",
+      "import_sha256": "b4206e4981b363e75d4248b95ab962616363ff396b6ef857ee1354f0703d097d",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/cvd-deutan-drift.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/cvd-deutan-drift.glsl",
+      "source_sha256": "8ee11ce2c98c97afd476189fb19ad0dbbc4e4c8c187c5a826be1563638ac09a5",
+      "import_sha256": "8ee11ce2c98c97afd476189fb19ad0dbbc4e4c8c187c5a826be1563638ac09a5",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/cvd-deutan-oriented.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/cvd-deutan-oriented.glsl",
+      "source_sha256": "b9b6c00a64c6471c1a9175b184117b650d18ff87ab32cdd9b39bb7faa14cb475",
+      "import_sha256": "b9b6c00a64c6471c1a9175b184117b650d18ff87ab32cdd9b39bb7faa14cb475",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/cvd-deutan.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/cvd-deutan.glsl",
+      "source_sha256": "40a71dd76a1114767c24b5b7a2671a5bc58a0df2162d0b591f0a237f49141af0",
+      "import_sha256": "40a71dd76a1114767c24b5b7a2671a5bc58a0df2162d0b591f0a237f49141af0",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/cvd-protan.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/cvd-protan.glsl",
+      "source_sha256": "0d298456b7261781472935235b11062c7d93f3afc195e2da74e6e0f81fdae380",
+      "import_sha256": "0d298456b7261781472935235b11062c7d93f3afc195e2da74e6e0f81fdae380",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/cvd-tritan.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/cvd-tritan.glsl",
+      "source_sha256": "017ee4edc84f12b90a5b7d026b05326e8818c82143ea6f044028c273a0f46877",
+      "import_sha256": "017ee4edc84f12b90a5b7d026b05326e8818c82143ea6f044028c273a0f46877",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/faerie-magic-overlay.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/faerie-magic-overlay.glsl",
+      "source_sha256": "3d682f8b67c1e1882885aaba97542b2c17c492fb34366f31785cbcb9c752bcca",
+      "import_sha256": "3d682f8b67c1e1882885aaba97542b2c17c492fb34366f31785cbcb9c752bcca",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/film-grain.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/film-grain.glsl",
+      "source_sha256": "57286bd303e4a96b79eada3d1e85ecbcef6bf9234edb56afb17ccd983b968813",
+      "import_sha256": "57286bd303e4a96b79eada3d1e85ecbcef6bf9234edb56afb17ccd983b968813",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/fire-tendrils.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/fire-tendrils.glsl",
+      "source_sha256": "2f446f3b2f70b3525319160fb02a8a107b848f500ce4fed46d83ab603b4c2e73",
+      "import_sha256": "2f446f3b2f70b3525319160fb02a8a107b848f500ce4fed46d83ab603b4c2e73",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/fire.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/fire.glsl",
+      "source_sha256": "b25ad695b396f659bb369bc20d411bd3fd8c07888bda5a790cc800777a297cca",
+      "import_sha256": "b25ad695b396f659bb369bc20d411bd3fd8c07888bda5a790cc800777a297cca",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/fisheye-rgb.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/fisheye-rgb.glsl",
+      "source_sha256": "f00338d0b4fa4f0e689b69c28714b658a5a9b96e85fd0119c2bacb00b0d04b57",
+      "import_sha256": "f00338d0b4fa4f0e689b69c28714b658a5a9b96e85fd0119c2bacb00b0d04b57",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/flap-board.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/flap-board.glsl",
+      "source_sha256": "c1a0a8cbd4d8966cfda4a8ef951582d79cb58d57a50b599a51d3b8eb8440d42b",
+      "import_sha256": "c1a0a8cbd4d8966cfda4a8ef951582d79cb58d57a50b599a51d3b8eb8440d42b",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/flowering-vine-overlay.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/flowering-vine-overlay.glsl",
+      "source_sha256": "d846579f25971cd9959fa9fd610a1ecca9fb23eafd9c30acfdfbb33199e30ac3",
+      "import_sha256": "d846579f25971cd9959fa9fd610a1ecca9fb23eafd9c30acfdfbb33199e30ac3",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/liquid-glass.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/liquid-glass.glsl",
+      "source_sha256": "f31d9dd62c5dd46e924cc0d963e9d2d8475b11be31de4a09e6e91ab3476a9519",
+      "import_sha256": "f31d9dd62c5dd46e924cc0d963e9d2d8475b11be31de4a09e6e91ab3476a9519",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/mercury-sheen.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/mercury-sheen.glsl",
+      "source_sha256": "c8ea64a8e425ea6b9dc0d385c1cfb78402b61d0f63abd040cf98de7b4a356a7d",
+      "import_sha256": "c8ea64a8e425ea6b9dc0d385c1cfb78402b61d0f63abd040cf98de7b4a356a7d",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/neon-bleed-overlay.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/neon-bleed-overlay.glsl",
+      "source_sha256": "e24fbd13fa989aee2b2a10609d1d4f161372a07fb9aa7cff78287272f9059a70",
+      "import_sha256": "e24fbd13fa989aee2b2a10609d1d4f161372a07fb9aa7cff78287272f9059a70",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/parchment-dark.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/parchment-dark.glsl",
+      "source_sha256": "05f54fd10830ffe5c50347245e3dd9ee94c564f83e6b595363a16d811c003213",
+      "import_sha256": "05f54fd10830ffe5c50347245e3dd9ee94c564f83e6b595363a16d811c003213",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/parchment.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/parchment.glsl",
+      "source_sha256": "e81a84eb3be9aa3191da2111e584200ebbc32d4004ba6bb1bc405ff50a422cd6",
+      "import_sha256": "e81a84eb3be9aa3191da2111e584200ebbc32d4004ba6bb1bc405ff50a422cd6",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/pixel-mosaic.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/pixel-mosaic.glsl",
+      "source_sha256": "1d40f0a672d6752cd16bc4ec2dfdc4484b05e58b143e10ec908e40d1722dbdc9",
+      "import_sha256": "1d40f0a672d6752cd16bc4ec2dfdc4484b05e58b143e10ec908e40d1722dbdc9",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/portal-lava-overlay.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/portal-lava-overlay.glsl",
+      "source_sha256": "74cc78cff91e273fd19b602c598c43971216a75a6b58b34af7f6fa365279ffac",
+      "import_sha256": "74cc78cff91e273fd19b602c598c43971216a75a6b58b34af7f6fa365279ffac",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/prairie-wind.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/prairie-wind.glsl",
+      "source_sha256": "2959d072ca36d96f7a7ebca9abb115d99d2f9e5010e83cef6e1a86a5047482d0",
+      "import_sha256": "2959d072ca36d96f7a7ebca9abb115d99d2f9e5010e83cef6e1a86a5047482d0",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/rainbow-radial.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/rainbow-radial.glsl",
+      "source_sha256": "b4252dc0a3ebe386c5e9284adde909720d248e4ba21e5544311ea363b6732fd0",
+      "import_sha256": "b4252dc0a3ebe386c5e9284adde909720d248e4ba21e5544311ea363b6732fd0",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/rainbow-ripple-overlay.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/rainbow-ripple-overlay.glsl",
+      "source_sha256": "ac92ac5776d223299e663a5c7e6b658ee42c1dad9c49c9a1b15a4781b8a3a15c",
+      "import_sha256": "ac92ac5776d223299e663a5c7e6b658ee42c1dad9c49c9a1b15a4781b8a3a15c",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/rainbow-smoke.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/rainbow-smoke.glsl",
+      "source_sha256": "ae45a836b25ebdeef83c7fde196af7b84ed3037c6e801e05b4aa276871a92e2a",
+      "import_sha256": "ae45a836b25ebdeef83c7fde196af7b84ed3037c6e801e05b4aa276871a92e2a",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/rainbow-waves.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/rainbow-waves.glsl",
+      "source_sha256": "0d17e4ebe5ed3ac6005e5ae7c991f6c63f08f514c488a3e8f32627a2538d9f2c",
+      "import_sha256": "0d17e4ebe5ed3ac6005e5ae7c991f6c63f08f514c488a3e8f32627a2538d9f2c",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/rainfall.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/rainfall.glsl",
+      "source_sha256": "b04e34a7777f05dbdae3c33069db54fa3a8c19a4124cbe09f0cad14139547946",
+      "import_sha256": "b04e34a7777f05dbdae3c33069db54fa3a8c19a4124cbe09f0cad14139547946",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/rgb-border.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/rgb-border.glsl",
+      "source_sha256": "c3d362d09c1149c7173940aa8838c2a62021d3229e80fad5181824dd7524a20d",
+      "import_sha256": "c3d362d09c1149c7173940aa8838c2a62021d3229e80fad5181824dd7524a20d",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/rgb-shimmer.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/rgb-shimmer.glsl",
+      "source_sha256": "510c0c95f885c3ba6338d8e353ca19c18c58d7f579b29b634c733fa3311bc9b1",
+      "import_sha256": "510c0c95f885c3ba6338d8e353ca19c18c58d7f579b29b634c733fa3311bc9b1",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/ripple-drops.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/ripple-drops.glsl",
+      "source_sha256": "93dfaf30b17537ad539e2354f82f264837df84b291c7406eb9051828aa795313",
+      "import_sha256": "93dfaf30b17537ad539e2354f82f264837df84b291c7406eb9051828aa795313",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/rolling-clouds.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/rolling-clouds.glsl",
+      "source_sha256": "59d13302a05e0411a9bbf178345bae79a368947094eef1c0e9787b2d08e283f9",
+      "import_sha256": "59d13302a05e0411a9bbf178345bae79a368947094eef1c0e9787b2d08e283f9",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/rorschach.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/rorschach.glsl",
+      "source_sha256": "13cae15d22c57d673f504c1b09e9be717f55276709636b9e67703b690f252163",
+      "import_sha256": "13cae15d22c57d673f504c1b09e9be717f55276709636b9e67703b690f252163",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/rorschach2.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/rorschach2.glsl",
+      "source_sha256": "5607ea347ef981524e5487745a0119ac1d56e65ea3b75e7921a86a0e8a95d0b9",
+      "import_sha256": "5607ea347ef981524e5487745a0119ac1d56e65ea3b75e7921a86a0e8a95d0b9",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/sentient-circuit-v2.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/sentient-circuit-v2.glsl",
+      "source_sha256": "ade49f0f889984eba3fba69befbafcf6212f7b06e361911546f41fbe860bde33",
+      "import_sha256": "ade49f0f889984eba3fba69befbafcf6212f7b06e361911546f41fbe860bde33",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/sentient-circuit.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/sentient-circuit.glsl",
+      "source_sha256": "944cec0c530d7025d1f56e312f7a1dc773970cb6c50688520a3988ae1759eb72",
+      "import_sha256": "944cec0c530d7025d1f56e312f7a1dc773970cb6c50688520a3988ae1759eb72",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/shaders/window/snowfall.glsl",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/shaders/window/snowfall.glsl",
+      "source_sha256": "064f7af6b5d022da2a06fac479619bdca23d426b4b8f6f3a7bde95234de815e4",
+      "import_sha256": "064f7af6b5d022da2a06fac479619bdca23d426b4b8f6f3a7bde95234de815e4",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/effects.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/effects.toml",
+      "source_sha256": "b283df63f3c13e93591eaa1006ad6c291c458a515827b1e2695d406360bdf789",
+      "import_sha256": "b283df63f3c13e93591eaa1006ad6c291c458a515827b1e2695d406360bdf789",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/examples/choices.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "docs/examples/choices.toml",
+      "source_sha256": "4a4ef3e986f054d611f427f87fc01a91481205abd490ea18588ab1225b15b3bd",
+      "import_sha256": "4a4ef3e986f054d611f427f87fc01a91481205abd490ea18588ab1225b15b3bd",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/drag.toml",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "examples/effects/drag.toml",
+      "source_sha256": "0185aa2338bc7c3f0fee5053f94674a48b070a54e2728f32b7f9d06d33cabc24",
+      "import_sha256": "0185aa2338bc7c3f0fee5053f94674a48b070a54e2728f32b7f9d06d33cabc24",
+      "working_tree": false
+    },
+    {
+      "file": "shaders/umbriel/collection/tools/generate-paper-overlay.py",
+      "repository": "barrulus/bumbriel",
+      "revision": "0eaaf298eec95351790d666bd7c0d7705b65d2d3",
+      "source": "tools/generate-paper-overlay.py",
+      "source_sha256": "6ff0180a677e1a9ccbd0e18d04d70d03111a3cd770785c0e3c6c3235dd9fa396",
+      "import_sha256": "6ff0180a677e1a9ccbd0e18d04d70d03111a3cd770785c0e3c6c3235dd9fa396",
+      "working_tree": true
+    },
+    {
+      "file": "shaders/biri/focus-ring/liquid-metal.frag",
+      "repository": "local-config",
+      "source": "~/.config/biri/focus-ring/liquid-metal.frag",
+      "source_sha256": "72554d98b45bc413375fc050d7b2ecdf2f3c1507e3a118d60df6766dc8ce51b8",
+      "import_sha256": "72554d98b45bc413375fc050d7b2ecdf2f3c1507e3a118d60df6766dc8ce51b8",
+      "working_tree": true
+    },
+    {
+      "file": "shaders/biri/experiments/mp-split.kdl",
+      "repository": "local-config",
+      "source": "~/.config/biri/global-shaders/experiments/mp-split.kdl",
+      "source_sha256": "b69928f2916b236d7cff2af16bf25c9a845b9e365db00265007aae51ee084830",
+      "import_sha256": "b69928f2916b236d7cff2af16bf25c9a845b9e365db00265007aae51ee084830",
+      "working_tree": true
+    },
+    {
+      "file": "shaders/biri/experiments/test-buffer-trail.kdl",
+      "repository": "local-config",
+      "source": "~/.config/biri/global-shaders/experiments/test-buffer-trail.kdl",
+      "source_sha256": "065a8d8a16e3d6b1750012d08eed288358b461f2b8e92424e044d7d09bbb3552",
+      "import_sha256": "065a8d8a16e3d6b1750012d08eed288358b461f2b8e92424e044d7d09bbb3552",
+      "working_tree": true
+    },
+    {
+      "file": "shaders/biri/experiments/mp-comet.kdl",
+      "repository": "local-config",
+      "source": "~/.config/biri/global-shaders/experiments/mp-comet.kdl",
+      "source_sha256": "c0d0891e012b0acb3d1aefcc590cf8357cf9e46dd69bd78f2c603c0406c57818",
+      "import_sha256": "c0d0891e012b0acb3d1aefcc590cf8357cf9e46dd69bd78f2c603c0406c57818",
+      "working_tree": true
+    }
+  ]
+}

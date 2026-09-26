@@ -1,0 +1,2 @@
+[effects."screen.vignette".screen]
+passes = [{ shader = "vignette.glsl" }]

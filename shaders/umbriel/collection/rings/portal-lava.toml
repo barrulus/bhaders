@@ -1,0 +1,6 @@
+[effects.portal-lava.border.outer]
+padding = 14
+passes = [{ shader = "portal-lava.glsl" }]
+
+[effects.portal-lava.border.inner]
+passes = [{ shader = "../window/portal-lava-overlay.glsl" }]

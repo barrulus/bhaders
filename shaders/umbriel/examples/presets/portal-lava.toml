@@ -1,0 +1,9 @@
+["effects"."portal-lava"."border"."outer"]
+enabled = true
+animated = true
+speed = 1
+padding = 14
+passes = [{ shader = "../shaders/rings/portal-lava.glsl" }]
+
+["effects"."portal-lava"."border"."inner"]
+passes = [{ shader = "../shaders/window/portal-lava-overlay.glsl" }]

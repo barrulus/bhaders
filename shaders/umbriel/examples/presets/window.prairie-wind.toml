@@ -1,0 +1,2 @@
+["effects"."window.prairie-wind"."content"]
+passes = [{ shader = "../shaders/window/prairie-wind.glsl" }]

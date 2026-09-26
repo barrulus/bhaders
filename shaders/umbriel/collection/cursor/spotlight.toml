@@ -1,0 +1,2 @@
+[effects."cursor.spotlight".overlay]
+passes = [{ shader = "spotlight.glsl" }]

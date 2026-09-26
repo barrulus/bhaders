@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "sentient-circuit" { path "~/.config/bhaders/biri/window/sentient-circuit.frag"; }
+}

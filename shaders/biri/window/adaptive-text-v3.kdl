@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "adaptive-text-v3" { path "~/.config/bhaders/biri/window/adaptive-text-v3.frag"; }
+}

@@ -1,0 +1,9 @@
+["effects"."faerie-magic"."border"."outer"]
+enabled = true
+animated = true
+speed = 1
+padding = 8
+passes = [{ shader = "../shaders/rings/faerie-magic.glsl" }]
+
+["effects"."faerie-magic"."border"."inner"]
+passes = [{ shader = "../shaders/window/faerie-magic-overlay.glsl" }]

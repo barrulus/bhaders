@@ -1,0 +1,9 @@
+[effects.ripple.open]
+duration_ms = 400
+curve = "linear"
+passes = [{ shader = "ripple-open.glsl" }]
+
+[effects.ripple.close]
+duration_ms = 500
+curve = "linear"
+passes = [{ shader = "ripple-close.glsl" }]

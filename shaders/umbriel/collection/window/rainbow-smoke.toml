@@ -1,0 +1,2 @@
+[effects."window.rainbow-smoke".content]
+passes = [{ shader = "rainbow-smoke.glsl" }]

@@ -1,0 +1,2 @@
+[effects."window.rorschach2".content]
+passes = [{ shader = "rorschach2.glsl" }]

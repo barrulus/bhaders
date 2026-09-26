@@ -1,0 +1,2 @@
+[effects."window.parchment".content]
+passes = [{ shader = "parchment.glsl" }]

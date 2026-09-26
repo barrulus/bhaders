@@ -1,0 +1,2 @@
+["effects"."window.autumn-leaves"."content"]
+passes = [{ shader = "../shaders/window/autumn-leaves.glsl" }]

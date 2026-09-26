@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "fisheye-rgb" { path "~/.config/bhaders/biri/window/fisheye-rgb.frag"; }
+}

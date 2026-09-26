@@ -1,0 +1,2 @@
+[effects."cursor.trail".overlay]
+passes = [{ shader = "trail.glsl", buffer = true }]

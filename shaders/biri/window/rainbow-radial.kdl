@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "rainbow-radial" { path "~/.config/bhaders/biri/window/rainbow-radial.frag"; }
+}

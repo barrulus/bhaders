@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "parchment-dark" { path "~/.config/bhaders/biri/window/parchment-dark.frag"; }
+}

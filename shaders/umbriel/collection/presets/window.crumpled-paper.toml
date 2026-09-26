@@ -1,0 +1,3 @@
+[effects."window.crumpled-paper".content]
+animated = false
+passes = [{ shader = "../window/crumpled-paper.glsl" }]

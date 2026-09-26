@@ -1,0 +1,2 @@
+[effects."cursor.shockwave".overlay]
+passes = [{ shader = "shockwave.glsl" }]

@@ -1,0 +1,18 @@
+// Personal preset: content shaders are installed under ~/.config/bhaders/biri.
+// Include after existing Foot rules so this theme takes precedence.
+window-rule {
+    match app-id=r#"^(foot|footclient|foot-.*)$"#
+
+    shader {
+        path "~/.config/bhaders/biri/window/sentient-circuit-v2.frag"
+    }
+    border { off; }
+    focus-ring {
+        on
+        width 6
+        shader {
+            path "../focus-ring/sentient-runner.frag"
+            padding 14
+        }
+    }
+}

@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "cvd-tritan" { path "~/.config/bhaders/biri/window/cvd-tritan.frag"; }
+}
