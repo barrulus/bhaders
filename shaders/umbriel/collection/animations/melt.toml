@@ -1,0 +1,9 @@
+[effects.melt.open]
+duration_ms = 400
+curve = "linear"
+passes = [{ shader = "melt-open.glsl" }]
+
+[effects.melt.close]
+duration_ms = 500
+curve = "linear"
+passes = [{ shader = "melt-close.glsl" }]

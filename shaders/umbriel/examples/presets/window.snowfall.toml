@@ -1,0 +1,2 @@
+["effects"."window.snowfall"."content"]
+passes = [{ shader = "../shaders/window/snowfall.glsl" }]

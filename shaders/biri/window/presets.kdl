@@ -1,0 +1,39 @@
+// Copy resources/shaders to ~/.config/niri/shaders, then include this file.
+window-shaders {
+    preset "adaptive-text-v3" { path "~/.config/bhaders/biri/window/adaptive-text-v3.frag"; }
+    preset "adaptive-text-v4" { path "~/.config/bhaders/biri/window/adaptive-text-v4.frag"; }
+    preset "autumn-leaves" { path "~/.config/bhaders/biri/window/autumn-leaves.frag"; }
+    preset "crt" { path "~/.config/bhaders/biri/window/crt.frag"; }
+    preset "crumpled-paper" { path "~/.config/bhaders/biri/window/crumpled-paper.frag"; }
+    preset "cvd-deutan" { path "~/.config/bhaders/biri/window/cvd-deutan.frag"; }
+    preset "cvd-deutan-alphabet" { path "~/.config/bhaders/biri/window/cvd-deutan-alphabet.frag"; }
+    preset "cvd-deutan-combo" { path "~/.config/bhaders/biri/window/cvd-deutan-combo.frag"; }
+    preset "cvd-deutan-drift" { path "~/.config/bhaders/biri/window/cvd-deutan-drift.frag"; }
+    preset "cvd-deutan-oriented" { path "~/.config/bhaders/biri/window/cvd-deutan-oriented.frag"; }
+    preset "cvd-protan" { path "~/.config/bhaders/biri/window/cvd-protan.frag"; }
+    preset "cvd-tritan" { path "~/.config/bhaders/biri/window/cvd-tritan.frag"; }
+    preset "film-grain" { path "~/.config/bhaders/biri/window/film-grain.frag"; }
+    preset "fire" { path "~/.config/bhaders/biri/window/fire.frag"; }
+    preset "fire-tendrils" { path "~/.config/bhaders/biri/window/fire-tendrils.frag"; }
+    preset "fisheye-rgb" { path "~/.config/bhaders/biri/window/fisheye-rgb.frag"; }
+    preset "flap-board" { path "~/.config/bhaders/biri/window/flap-board.frag"; }
+    preset "liquid-glass" { path "~/.config/bhaders/biri/window/liquid-glass.frag"; }
+    preset "mercury-sheen" { path "~/.config/bhaders/biri/window/mercury-sheen.frag"; }
+    preset "parchment" { path "~/.config/bhaders/biri/window/parchment.frag"; }
+    preset "parchment-dark" { path "~/.config/bhaders/biri/window/parchment-dark.frag"; }
+    preset "pixel-mosaic" { path "~/.config/bhaders/biri/window/pixel-mosaic.frag"; }
+    preset "prairie-wind" { path "~/.config/bhaders/biri/window/prairie-wind.frag"; }
+    preset "rainbow-radial" { path "~/.config/bhaders/biri/window/rainbow-radial.frag"; }
+    preset "rainbow-smoke" { path "~/.config/bhaders/biri/window/rainbow-smoke.frag"; }
+    preset "rainbow-waves" { path "~/.config/bhaders/biri/window/rainbow-waves.frag"; }
+    preset "rainfall" { path "~/.config/bhaders/biri/window/rainfall.frag"; }
+    preset "rgb-border" { path "~/.config/bhaders/biri/window/rgb-border.frag"; }
+    preset "rgb-shimmer" { path "~/.config/bhaders/biri/window/rgb-shimmer.frag"; }
+    preset "ripple-drops" { path "~/.config/bhaders/biri/window/ripple-drops.frag"; }
+    preset "rolling-clouds" { path "~/.config/bhaders/biri/window/rolling-clouds.frag"; }
+    preset "rorschach" { path "~/.config/bhaders/biri/window/rorschach.frag"; }
+    preset "rorschach2" { path "~/.config/bhaders/biri/window/rorschach2.frag"; }
+    preset "sentient-circuit" { path "~/.config/bhaders/biri/window/sentient-circuit.frag"; }
+    preset "sentient-circuit-v2" { path "~/.config/bhaders/biri/window/sentient-circuit-v2.frag"; }
+    preset "snowfall" { path "~/.config/bhaders/biri/window/snowfall.frag"; }
+}

@@ -1,0 +1,16 @@
+// MULTI-PASS TEST A — proves chaining + niri_source (static, instant to eyeball).
+// Pass 0 tints the real screen red. Pass 1 shows pass-0's output (niri_screen) on the LEFT half
+// and the ORIGINAL unfiltered screen (niri_source) on the RIGHT half.
+// EXPECT: left half red-tinted, right half normal colours, hard split down the middle.
+//   - left tinted  => pass 1's niri_screen IS pass 0's output  (the pipe/chaining works)
+//   - right normal => niri_source is the original, unfiltered screen
+// If the WHOLE screen is tinted (no split) or NOT tinted at all, chaining is broken.
+global-shader {
+    enable
+    pass {
+        source "vec4 global_color(vec3 c){ vec3 s=tex2D_screen(c.xy).rgb; return vec4(s*vec3(1.6,0.5,0.5),1.0); }"
+    }
+    pass {
+        source "vec4 global_color(vec3 c){ if (c.x < 0.5) return tex2D_screen(c.xy); return tex2D_source(c.xy); }"
+    }
+}

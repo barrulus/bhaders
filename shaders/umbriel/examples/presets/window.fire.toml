@@ -1,0 +1,2 @@
+[effects."window.fire".content]
+passes = [{ shader = "../shaders/window/fire.glsl" }]

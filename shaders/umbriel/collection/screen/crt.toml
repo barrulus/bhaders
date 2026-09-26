@@ -1,0 +1,2 @@
+[effects."screen.crt".screen]
+passes = [{ shader = "crt.glsl" }]

@@ -1,0 +1,12 @@
+["effects"."pulse"."border"."outer"]
+enabled = true
+animated = true
+speed = 1
+padding = 0
+passes = [{ shader = "../shaders/rings/pulse.glsl" }]
+
+["effects"."pulse"."border"."outer"."light"]
+enabled = false
+
+["effects"."pulse"."border"."inner"]
+enabled = false

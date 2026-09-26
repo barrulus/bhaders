@@ -1,0 +1,2 @@
+[effects."window.cvd-deutan-drift".content]
+passes = [{ shader = "cvd-deutan-drift.glsl" }]

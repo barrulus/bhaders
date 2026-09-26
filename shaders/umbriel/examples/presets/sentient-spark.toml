@@ -1,0 +1,9 @@
+["effects"."sentient-spark"."border"."outer"]
+enabled = true
+animated = true
+speed = 1
+padding = 14
+passes = [{ shader = "../shaders/rings/sentient-spark.glsl" }]
+
+["effects"."sentient-spark"."border"."inner"]
+enabled = false

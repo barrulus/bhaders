@@ -1,0 +1,2 @@
+[effects."window.pixel-mosaic".content]
+passes = [{ shader = "pixel-mosaic.glsl" }]

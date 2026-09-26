@@ -1,0 +1,2 @@
+["effects"."window.flap-board"."content"]
+passes = [{ shader = "../shaders/window/flap-board.glsl" }]

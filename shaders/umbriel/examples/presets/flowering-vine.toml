@@ -1,0 +1,15 @@
+["effects"."flowering-vine"."border"."outer"]
+enabled = true
+animated = true
+speed = 1
+padding = 8
+passes = [{ shader = "../shaders/rings/flowering-vine.glsl" }]
+
+["effects"."flowering-vine"."border"."outer"."light"]
+enabled = true
+spread = 16
+intensity = 0.25
+threshold = 0.75
+
+["effects"."flowering-vine"."border"."inner"]
+passes = [{ shader = "../shaders/window/flowering-vine-overlay.glsl" }]

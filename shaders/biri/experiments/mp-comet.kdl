@@ -1,0 +1,28 @@
+// MULTI-PASS TEST B — proves per-pass feedback (niri_prev) + no-smear (niri_source).
+// Pass 0 accumulates a fading cyan cursor trail in ITS OWN niri_prev (no screen mixed in).
+// Pass 1 composites that trail over the ORIGINAL screen (niri_source).
+// EXPECT:
+//   - move the mouse  -> cyan comet trail that fades out behind the cursor (the trail lives in
+//     pass 0's own per-pass niri_prev; it must keep decaying even when you stop moving)
+//   - scroll a page / play a video UNDER the trail -> the trail stays clean with NO ghost of the
+//     moving content (because pass 1 reads niri_source, the real screen, not a fed-back mix)
+global-shader {
+    enable
+    pass {
+        source "
+        vec4 global_color(vec3 c){
+            vec3 prev = tex2D_prev(c.xy).rgb * 0.92;          // THIS pass's own last-frame output
+            float d = length(c.xy*niri_output_size - niri_cursor);
+            float fresh = smoothstep(40.0, 0.0, d);
+            return vec4(max(prev, vec3(0.2,0.9,1.0)*fresh), 1.0);
+        }"
+    }
+    pass {
+        source "
+        vec4 global_color(vec3 c){
+            vec3 scr = tex2D_source(c.xy).rgb;                // original screen, unfiltered
+            vec3 trail = tex2D_screen(c.xy).rgb;              // pass 0's output = the pure trail
+            return vec4(scr + trail, 1.0);
+        }"
+    }
+}

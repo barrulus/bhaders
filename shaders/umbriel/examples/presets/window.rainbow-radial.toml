@@ -1,0 +1,2 @@
+["effects"."window.rainbow-radial"."content"]
+passes = [{ shader = "../shaders/window/rainbow-radial.glsl" }]

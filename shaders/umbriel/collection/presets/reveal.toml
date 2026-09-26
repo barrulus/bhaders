@@ -1,0 +1,9 @@
+[effects."reveal".open]
+duration_ms = 500
+curve = "linear"
+passes = [{ shader = "../animations/reveal.glsl" }]
+
+[effects."reveal".close]
+duration_ms = 500
+curve = "linear"
+passes = [{ shader = "../animations/reveal.glsl" }]

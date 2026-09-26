@@ -1,0 +1,2 @@
+[effects."window.rainfall".content]
+passes = [{ shader = "rainfall.glsl" }]

@@ -1,0 +1,2 @@
+[include]
+files = ["animations/whirlpool.toml", "animations/melt.toml", "animations/ripple.toml", "animations/lightning.toml"]

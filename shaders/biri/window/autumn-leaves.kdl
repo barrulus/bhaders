@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "autumn-leaves" { path "~/.config/bhaders/biri/window/autumn-leaves.frag"; }
+}

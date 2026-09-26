@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "rainbow-smoke" { path "~/.config/bhaders/biri/window/rainbow-smoke.frag"; }
+}

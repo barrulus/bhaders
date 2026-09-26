@@ -1,0 +1,2 @@
+["effects"."window.parchment-dark"."content"]
+passes = [{ shader = "../shaders/window/parchment-dark.glsl" }]

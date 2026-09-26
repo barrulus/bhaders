@@ -1,0 +1,2 @@
+[effects."wobbly-move".move]
+passes = [{ shader = "../shaders/animations/wobbly-move.glsl" }]

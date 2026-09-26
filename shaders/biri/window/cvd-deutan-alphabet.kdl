@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "cvd-deutan-alphabet" { path "~/.config/bhaders/biri/window/cvd-deutan-alphabet.frag"; }
+}

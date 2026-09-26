@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Shaders by Barrulus. Browse, preview and download window effects, focus rings, cursor trails and animations for Biri and Umbriel.">
+  <meta name="theme-color" content="#151715">
+  <title>bhaders — a little less ordinary</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#catalogue">Skip to effects</a>
+  <header class="masthead">
+    <a class="wordmark" href="./" aria-label="bhaders home">b<span>h</span>aders<span class="period">.</span></a>
+    <nav aria-label="Main"><a href="#catalogue">The collection</a><a href="#getting-started">Getting started</a><a href="https://github.com/barrulus/bhaders">GitHub ↗</a></nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="headline">
+      <div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> INDEPENDENT SHADERS / BY BARRULUS</p>
+        <h1 id="headline">A little less<br><em>ordinary.</em></h1>
+        <p class="intro">Let your windows grow wild. Living borders, wandering sparks, liquid glass and a desktop with a life of its own.</p>
+        <a class="button primary" href="#catalogue">Find your next effect <span>↓</span></a>
+        <p class="hero-note">Made for Biri & Umbriel. Yours to use, change and share.</p>
+      </div>
+      <div class="hero-art"><canvas id="hero-preview" width="720" height="470" aria-label="Live preview of the flowering vine ring"></canvas>
+        <div class="hero-caption"><span><span class="status-dot"></span> <strong>Flowering vine</strong> / live shader study</span><button id="motion" type="button" aria-pressed="false">Pause motion</button></div>
+      </div>
+    </section>
+    <section class="collection" id="catalogue" aria-labelledby="collection-title">
+      <div class="section-top"><div><p class="eyebrow">THE COLLECTION</p><h2 id="collection-title">Small effects. Big personality.</h2></div><span class="count" id="total">Loading collection…</span></div>
+      <div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">Search effects</span><input id="search" type="search" placeholder="Find an effect, a colour, a feeling…" autocomplete="off"></label>
+        <label class="runtime-label">Made for <select id="runtime"><option value="all">Both compositors</option value="biri">Biri</option><option value="umbriel">Umbriel</option></select></label>
+      </div>
+      <div id="categories" class="filters" role="group" aria-label="Effect type"></div>
+      <div class="results-line"><p id="results" role="status" aria-live="polite"></p><button id="reset" class="text-button" type="button" hidden>Clear filters</button></div>
+      <div id="grid" class="grid"></div>
+      <div id="empty" class="empty" hidden><h3>No effects found.</h3><p>Try a different name or clear the filters.</p></div>
+      <button id="more" class="button more" type="button" hidden>Show more effects ↓</button>
+      <noscript><p>Enable JavaScript to search and preview the catalogue. You can still <a href="downloads/bhaders-biri-all.zip">download Biri's collection</a>, <a href="downloads/bhaders-umbriel-all.zip">download Umbriel's collection</a>, or <a href="https://github.com/barrulus/bhaders/tree/main/shaders">browse all sources on GitHub</a>.</p></noscript>
+    </section>
+    <section id="getting-started" class="getting-started" aria-labelledby="start-title"><div><p class="eyebrow">MAKE IT YOURS</p><h2 id="start-title">Pick. Download.<br>Play around.</h2><p>Every download includes editable source, a preset and instructions. No account. No installer. Just the effect you came for.</p></div>
+      <ol><li><span>01</span><div><h3>Choose your compositor</h3><p>Biri uses KDL presets. Umbriel uses TOML effect definitions. Choose a compatible version in the effect details.</p></div></li><li><span>02</span><div><h3>Keep the files together</h3><p>Extract to <code>~/.config/bhaders/</code>, preserving the folders. Each ZIP includes the files its preset needs.</p></div></li><li><span>03</span><div><h3>Include, validate, reload</h3><p>Follow the effect's instructions to activate it. These need the custom shader features in Biri or bumbriel; stock niri and older Umbriel builds are not interchangeable.</p></div></li></ol>
+    </section>
+    <section class="bundle"><div><h3>More of a “try everything” person?</h3><p>Take a complete collection, including authoring tools and presets.</p></div><div class="bundle-links"><a class="button" href="downloads/bhaders-biri-all.zip" download>All Biri effects ↓</a><a class="button" href="downloads/bhaders-umbriel-all.zip" download>All Umbriel effects ↓</a></div></section>
+  </main>
+  <footer><a class="wordmark" href="./">bhaders<span class="period">.</span></a><p>Made by Barrulus. Released under MIT.<br>A shader collection with a home of its own.</p><div><a href="LICENSE">License</a><a href="THIRD_PARTY_NOTICES.md">Credits</a><a href="downloads/SHA256SUMS">Checksums</a><a href="https://github.com/barrulus/bhaders">Source ↗</a></div></footer>
+  <dialog id="detail" aria-labelledby="detail-title"><button id="close-detail" class="close" aria-label="Close effect details">×</button><div class="detail-layout"><div class="detail-art"><canvas id="detail-preview" width="720" height="470" aria-label="Effect preview"></canvas><p id="preview-note"></p></div><div class="detail-copy"><p class="eyebrow" id="detail-category"></p><h2 id="detail-title"></h2><p id="detail-description"></p><label class="variant-label" for="variant">Download version</label><select id="variant"></select><a id="download" class="button primary" download>Download effect ↓</a><p class="download-meta" id="download-meta"></p><details open><summary>Installation</summary><pre id="instructions"></pre><button id="copy" type="button" class="text-button">Copy instructions</button></details><details><summary>Included files</summary><ul id="files"></ul></details><p class="preview-disclaimer">Browser studies use a sample window. Colours, clipping, lighting and timing can differ in your compositor.</p></div></div></dialog>
+</body>
+</html>

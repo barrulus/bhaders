@@ -1,0 +1,26 @@
+# umbriel / collection / cursor
+
+Editable shader sources, presets or authoring helpers. Keep relative paths intact when installing.
+
+- [adaptive.glsl](adaptive.glsl)
+- [adaptive.toml](adaptive.toml)
+- [blueglow.glsl](blueglow.glsl)
+- [blueglow.toml](blueglow.toml)
+- [comet-0.glsl](comet-0.glsl)
+- [comet-1.glsl](comet-1.glsl)
+- [comet-glow-0.glsl](comet-glow-0.glsl)
+- [comet-glow-1.glsl](comet-glow-1.glsl)
+- [comet-glow.toml](comet-glow.toml)
+- [comet.toml](comet.toml)
+- [rainbow-tunnel-bare.glsl](rainbow-tunnel-bare.glsl)
+- [rainbow-tunnel-bare.toml](rainbow-tunnel-bare.toml)
+- [rainbow-tunnel.glsl](rainbow-tunnel.glsl)
+- [rainbow-tunnel.toml](rainbow-tunnel.toml)
+- [ripple.glsl](ripple.glsl)
+- [ripple.toml](ripple.toml)
+- [shockwave.glsl](shockwave.glsl)
+- [shockwave.toml](shockwave.toml)
+- [spotlight.glsl](spotlight.glsl)
+- [spotlight.toml](spotlight.toml)
+- [trail.glsl](trail.glsl)
+- [trail.toml](trail.toml)

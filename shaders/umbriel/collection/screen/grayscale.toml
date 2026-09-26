@@ -1,0 +1,2 @@
+[effects."screen.grayscale".screen]
+passes = [{ shader = "grayscale.glsl" }]

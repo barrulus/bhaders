@@ -1,0 +1,2 @@
+[effects."window.cvd-tritan".content]
+passes = [{ shader = "../shaders/window/cvd-tritan.glsl" }]

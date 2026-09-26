@@ -1,0 +1,20 @@
+// 3.2 Task 4 verification — dedicated feedback buffer (global_buffer).
+// Cyan cursor trail accumulated in niri_buffer (decays 0.90/frame), composited over the screen.
+// Tests: (a) trail follows cursor and FADES cleanly (ping-pong alternates); (b) scroll/video
+// underneath shows NO ghost of the moving content in the trail (screen-independent buffer);
+// (c) trail sits AT the cursor, not vertically mirrored (offscreen Y-orientation).
+global-shader {
+    enable
+    source "
+    vec4 global_buffer(vec3 c){
+        vec3 prev = tex2D_buffer(c.xy).rgb;            // pure trail, no screen
+        float d = length(c.xy*niri_output_size - niri_cursor);
+        float fresh = smoothstep(18.0, 0.0, d);
+        return vec4(max(prev*0.90, vec3(0.2,0.8,1.0)*fresh), 1.0);
+    }
+    vec4 global_color(vec3 c){
+        vec3 s = tex2D_screen(c.xy).rgb;
+        vec4 b = tex2D_buffer(c.xy);                   // this frame's trail
+        return vec4(mix(s, b.rgb, length(b.rgb)*0.6), 1.0);
+    }"
+}

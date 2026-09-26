@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "pixel-mosaic" { path "~/.config/bhaders/biri/window/pixel-mosaic.frag"; }
+}

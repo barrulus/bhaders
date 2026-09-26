@@ -1,0 +1,12 @@
+["effects"."rainbow"."border"."outer"]
+enabled = true
+animated = true
+speed = 1
+padding = 14
+passes = [{ shader = "../shaders/rings/rainbow-ripple.glsl" }]
+
+["effects"."rainbow"."border"."outer"."light"]
+enabled = false
+
+["effects"."rainbow"."border"."inner"]
+passes = [{ shader = "../shaders/window/rainbow-ripple-overlay.glsl" }]

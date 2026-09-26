@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "flap-board" { path "~/.config/bhaders/biri/window/flap-board.frag"; }
+}

@@ -1,0 +1,2 @@
+[effects."window.mercury-sheen".content]
+passes = [{ shader = "mercury-sheen.glsl" }]

@@ -1,0 +1,20 @@
+[include]
+files = [
+  "windows.toml",
+  "screen/crt.toml",
+  "screen/grayscale.toml",
+  "screen/vignette.toml",
+  "screen/warmtint.toml",
+  "cursor/adaptive.toml",
+  "cursor/blueglow.toml",
+  "cursor/comet-glow.toml",
+  "cursor/comet.toml",
+  "cursor/rainbow-tunnel-bare.toml",
+  "cursor/rainbow-tunnel.toml",
+  "cursor/ripple.toml",
+  "cursor/shockwave.toml",
+  "cursor/spotlight.toml",
+  "cursor/trail.toml",
+  "animations.toml",
+  "paper.toml",
+]

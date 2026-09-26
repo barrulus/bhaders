@@ -1,0 +1,9 @@
+[effects.rainbow-ripple.border.outer]
+enabled = true
+animated = true
+speed = 1
+padding = 14
+passes = [{ shader = "rainbow-ripple.glsl" }]
+
+[effects.rainbow-ripple.border.inner]
+enabled = false

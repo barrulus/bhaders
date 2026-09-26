@@ -1,0 +1,9 @@
+["effects"."sentient-runner"."border"."outer"]
+enabled = true
+animated = true
+speed = 1
+padding = 14
+passes = [{ shader = "../shaders/rings/sentient-runner.glsl" }]
+
+["effects"."sentient-runner"."border"."inner"]
+enabled = false

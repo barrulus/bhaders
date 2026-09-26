@@ -1,0 +1,15 @@
+["effects"."fuse"."border"."outer"]
+enabled = true
+animated = true
+speed = 1
+padding = 48
+passes = [{ shader = "../shaders/rings/fuse.glsl" }]
+
+["effects"."fuse"."border"."outer"."light"]
+enabled = true
+spread = 90
+intensity = 1.4
+threshold = 0.5
+
+["effects"."fuse"."border"."inner"]
+enabled = false

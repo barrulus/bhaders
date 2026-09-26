@@ -1,0 +1,7 @@
+layout {
+    focus-ring {
+        on
+        width 6
+        shader { path "pulse.frag"; padding 0; }
+    }
+}

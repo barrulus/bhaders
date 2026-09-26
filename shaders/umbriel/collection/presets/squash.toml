@@ -1,0 +1,9 @@
+[effects."squash".open]
+duration_ms = 500
+curve = "linear"
+passes = [{ shader = "../animations/squash.glsl" }]
+
+[effects."squash".close]
+duration_ms = 500
+curve = "linear"
+passes = [{ shader = "../animations/squash.glsl" }]

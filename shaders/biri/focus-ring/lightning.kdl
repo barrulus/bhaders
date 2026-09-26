@@ -1,0 +1,7 @@
+layout {
+    focus-ring {
+        on
+        width 6
+        shader { path "lightning.frag"; padding 24; }
+    }
+}

@@ -1,0 +1,2 @@
+[effects."window.cvd-deutan-combo".content]
+passes = [{ shader = "../shaders/window/cvd-deutan-combo.glsl" }]

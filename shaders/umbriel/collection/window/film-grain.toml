@@ -1,0 +1,2 @@
+[effects."window.film-grain".content]
+passes = [{ shader = "film-grain.glsl" }]

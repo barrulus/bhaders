@@ -1,0 +1,2 @@
+[effects."window.fisheye-rgb".content]
+passes = [{ shader = "../shaders/window/fisheye-rgb.glsl" }]

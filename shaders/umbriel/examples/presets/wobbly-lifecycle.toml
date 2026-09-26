@@ -1,0 +1,9 @@
+[effects."wobbly-lifecycle".open]
+duration_ms = 500
+curve = "linear"
+passes = [{ shader = "../shaders/animations/wobbly-lifecycle.glsl" }]
+
+[effects."wobbly-lifecycle".close]
+duration_ms = 500
+curve = "linear"
+passes = [{ shader = "../shaders/animations/wobbly-lifecycle.glsl" }]

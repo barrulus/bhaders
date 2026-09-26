@@ -1,0 +1,2 @@
+[effects."window.rgb-shimmer".content]
+passes = [{ shader = "rgb-shimmer.glsl" }]

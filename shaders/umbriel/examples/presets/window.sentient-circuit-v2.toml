@@ -1,0 +1,2 @@
+["effects"."window.sentient-circuit-v2"."content"]
+passes = [{ shader = "../shaders/window/sentient-circuit-v2.glsl" }]

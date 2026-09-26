@@ -1,0 +1,2 @@
+["effects"."window.ripple-drops"."content"]
+passes = [{ shader = "../shaders/window/ripple-drops.glsl" }]

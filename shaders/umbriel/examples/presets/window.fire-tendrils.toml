@@ -1,0 +1,2 @@
+["effects"."window.fire-tendrils"."content"]
+passes = [{ shader = "../shaders/window/fire-tendrils.glsl" }]

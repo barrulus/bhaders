@@ -1,0 +1,4 @@
+// Register with window-shaders, then select with cycle-window-shader.
+window-shaders {
+    preset "crumpled-paper" { path "~/.config/bhaders/biri/window/crumpled-paper.frag"; }
+}
